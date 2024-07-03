@@ -4,6 +4,8 @@ def convert_csv_to_ledger(csv_file, output_file):
     # Read the CSV file
     df = pd.read_csv(csv_file)
 
+    df = df.sort_values(by='date', ascending=True)
+
     # Initialize an empty list to hold the formatted ledger entries
     ledger_entries = []
 
@@ -40,7 +42,7 @@ if __name__ == "__main__":
     # The CSV file to be converted
     csv_file = 'email_expense_transactions.csv'
     # The output file where ledger entries will be saved
-    output_file = 'ledger_entries.txt'
+    output_file = 'ledger_entries_obsidian.txt'
     convert_csv_to_ledger(csv_file, output_file)
 
     print(f"Ledger entries have been saved to {output_file}")

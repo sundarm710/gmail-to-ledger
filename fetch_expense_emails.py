@@ -49,7 +49,7 @@ def get_expense_emails(mail, label, since_date):
 
         for email_id in email_ids:
             status, msg_data = mail.fetch(email_id, '(RFC822)')
-            print(f"Fetching email ID: {email_id}")
+            print(f"\n Fetching email ID: {email_id}")
             for response_part in msg_data:
                 if isinstance(response_part, tuple):
                     msg = email.message_from_bytes(response_part[1])
@@ -115,6 +115,7 @@ def parse_transaction_details(subject, body):
                     'type': 'HDFC Savings Account',
                     'expense_account': 'Assets:Banking:HDFC'
                 }
+            
         elif 'Update on your HDFC Bank Credit Card' in subject:
             print ("HDFC Credit Card processing...")
             # Case 2: HDFC Credit Card
@@ -133,25 +134,64 @@ def parse_transaction_details(subject, body):
                         'recipient': recipient,
                         'account_last4': card_last4,
                         'type': 'Liabilities Credit HDFCMoneyBack',
-                        'expense_account': 'Liabilities:Credit Cards:HDFC'
+                        'expense_account': 'Liabilities:Credit:HDFCMoneyBack'
                     }
-        elif 'Alert : Transaction alert for your ICICI Bank Credit Card' in subject:
+
+        elif 'ICICI Bank Credit Card' in subject:
+            print ('ICICI Credit Card processing...')
             # Case 3: ICICI Credit Card
             if '8004' in body:
-                pattern = r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\.\d{2}) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}) at ([\w\s\.]+)'
+                print ('ICICI Credit Card processing entered...')
+                pattern = r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\.\d{2}) on (\w+ \d{2}, \d{4} at \d{2}:\d{2}:\d{2})\. Info: ([\w\s\.]+)'
                 match = re.search(pattern, body)
                 if match:
-                    card_last4, amount, date, recipient = match.groups()
-                    date = pd.to_datetime(date, format='%d-%m-%y').strftime('%Y-%m-%d')  # Parse and format date
+                    print ('ICICI Credit Card processing match.')
+                    card_last4, amount, datetime_str, recipient = match.groups()
+                    date = pd.to_datetime(datetime_str, format='%b %d, %Y at %H:%M:%S').strftime('%Y-%m-%d')  # Parse and format date
+                    amount = float(amount.replace(',', ''))  # Remove comma from amount and convert to float
                     print("ICICI Credit Card details extracted:", amount, card_last4, recipient, date)
                     return {
                         'date': date,
-                        'amount': float(amount),
+                        'amount': amount,
                         'recipient': recipient.strip(),
                         'account_last4': card_last4,
-                        'type': 'Liabilities Credit ICICI',
+                        'type': 'ICICI Credit Card',
                         'expense_account': 'Liabilities:Credit Cards:ICICI'
                     }
+                
+        elif 'View: Account update for your HDFC Bank A/c' in subject:
+            # New Case: HDFC Debit Card
+            pattern = r'HDFC Bank Debit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\s\.]+) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2})'
+            match = re.search(pattern, body)
+            if match:
+                account_last4, amount, recipient, datetime_str = match.groups()
+                date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')  # Parse and format date
+                return {
+                    'date': date,
+                    'amount': float(amount),
+                    'recipient': recipient.strip(),
+                    'account_last4': account_last4,
+                    'type': 'HDFC Savings Account',
+                    'expense_account': 'Assets:Banking:HDFC'
+                }
+            
+        elif 'CBSSBI ALERT' in subject:
+            # New Case: SBI Debit Card
+            pattern = r'Your A/C \w+(\d{4}) has a debit by transfer of Rs (\d+,\d+\.\d{2}) on (\d{2}/\d{2}/\d{2})'
+            match = re.search(pattern, body)
+            if match:
+                account_last4, amount, date = match.groups()
+                date = pd.to_datetime(date, format='%d/%m/%y').strftime('%Y-%m-%d')  # Parse and format date
+                amount = float(amount.replace(',', ''))  # Remove comma from amount and convert to float
+                recipient = "Transfer"
+                return {
+                    'date': date,
+                    'amount': amount,
+                    'recipient': recipient,
+                    'account_last4': account_last4,
+                    'type': 'SBI Account',
+                    'expense_account': 'Assets:Banking:SBI'
+                }
         else:
             print("No matching transaction details for subject:", subject)
     except Exception as e:
@@ -174,7 +214,7 @@ def merge_with_existing_csv(df, csv_file):
         # Step 1: Clean existing data by removing duplicates, giving precedence to non-empty descriptions
         existing_df['has_description'] = existing_df['Description'].apply(lambda x: bool(str(x).strip()))
         existing_df = existing_df.sort_values(by=['has_description', 'timestamp'], ascending=[False, True])
-        existing_df = existing_df.drop_duplicates(subset=['date', 'amount', 'recipient', 'account_last4'], keep='first')
+        existing_df = existing_df.drop_duplicates(subset=['date', 'timestamp', 'amount', 'recipient', 'account_last4'], keep='first')
         # existing_df = existing_df.drop(columns=['has_description'])
 
         # # Convert new data 'Description' column to string
@@ -205,7 +245,7 @@ def main():
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    since_date = '13-Jun-2024'
+    since_date = '21-Jun-2024'
     df = get_expense_emails(mail, label, since_date)
 
     if not df.empty:

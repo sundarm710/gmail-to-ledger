@@ -1,0 +1,419 @@
+2024-06-04 Starting Balances
+	Liabilities:Credit:HDFCMoneyBack                ₹0.0
+	Liabilities:Credit:ICICIAmazonPay  ₹967.0
+    Assets:Banking:SBI    ₹201769.30
+    Assets:Banking:HDFC    ₹21645.80
+	Assets:Zerodha:Funds   ₹52303.60
+	Assets:Smallcase    ₹2322437.0
+	Assets:MutualFunds    ₹466334.0
+	Assets:EmergencyFunds   ₹68368.83
+    Equity:StartingBalance
+
+2024/06/05 Bhel Puri
+    Expenses:Food:DuringTravel    ₹40.00
+    Assets:Banking:HDFC
+
+2024/06/05 Spotify
+    Expenses:Subscriptions    ₹119.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/06/05 Brooks & Bonds
+    Expenses:Food:EatingOut    ₹6497.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/06/06 Chocolates
+    Expenses:Food:Chocolates    ₹25.00
+    Assets:Banking:HDFC
+
+2024/06/06 Vasantham
+    Expenses:Food:EatingOut    ₹40.00
+    Assets:Banking:HDFC
+
+2024/06/06 Annu Perima
+    Assets:Banking:HDFC    ₹1500.00
+    Repayment
+
+2024/06/06 Brooks & Bonds - Repayment
+    Assets:Banking:HDFC    ₹2600.00
+    Repayment
+
+2024/06/07 Vice
+    Expenses:Misc:Entertainment:Vice    ₹40.00
+    Assets:Banking:HDFC
+
+2024/06/09 Vice
+    Expenses:Misc:Entertainment:Vice    ₹108.00
+    Assets:Banking:HDFC
+
+2024/06/09 Ice Cream
+    Expenses:Food:IceCream    ₹70.00
+    Assets:Banking:HDFC
+
+2024/06/08 Uru
+    Expenses:Food:EatingOut    ₹4973.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/06/08 Vice
+    Expenses:Misc:Entertainment:Vice    ₹30.00
+    Assets:Banking:HDFC
+
+2024/06/08 Barber
+    Expenses:SelfCare:Barber    ₹600.00
+    Assets:Banking:HDFC
+
+2024/06/08 Vice
+    Expenses:Misc:Entertainment:Vice    ₹200.00
+    Assets:Banking:HDFC
+
+2024/06/08 Beeda
+    Expenses:Food:EatingOut    ₹60.00
+    Assets:Banking:HDFC
+
+2024/06/09 Bobs Bar
+    Expenses:Food:EatingOut    ₹1784.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/06/08 Electricity
+    Expenses:Home:Utility    ₹933.00
+    Assets:Banking:HDFC
+
+2024/06/09 DrinkPrime
+    Expenses:Home:Utility    ₹2159.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/06/09 Groceries - Swiggy
+    Expenses:Food:Groceries    ₹1360.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/06/11 Redbus - to Chennai
+    Expenses:Travel:Bus   ₹1238.00
+    Assets:Banking:HDFC
+
+2024/06/11 Redbus - Chennai to Bangalore
+    Expenses:Travel:Bus    ₹3060.00
+    Assets:Banking:HDFC
+
+2024/06/11 Water
+    Expenses:Food:Water    ₹40
+    Assets:Banking:HDFC
+
+2024/06/11 Optic Kraft
+    Expenses:SelfCare:Lens    ₹5395
+    Assets:Banking:HDFC
+
+2024/06/11 Vice
+    Expenses:Misc:Entertainment:Vice    ₹54
+    Assets:Banking:HDFC
+
+2024/06/11 Vada
+    Expenses:Food:EatingOut    ₹30
+    Assets:Banking:HDFC
+
+2024/06/10 Juice
+    Expenses:Food:Juice   ₹105
+    Assets:Banking:HDFC
+
+2024/06/10 Vice
+    Expenses:Misc:Entertainment:Vice    ₹60
+    Assets:Banking:HDFC
+
+2024/06/10 Vada
+    Expenses:Food:EatingOut    ₹30
+    Assets:Banking:HDFC
+
+2024/06/10 Chocolates
+    Expenses:Food:Chocolates    ₹15
+    Assets:Banking:HDFC
+
+2024/06/10 Vice
+    Expenses:Misc:Entertainment:Vice    ₹20.00
+    Assets:Banking:HDFC
+
+2024/06/10 Home Loan
+    Expenses:Home:Loan    ₹105779.00
+    Assets:Banking:SBI
+
+2024/06/11 Vinith
+    Assets:Banking:HDFC    ₹3612.00
+    Repayment
+
+2024/06/10 Arun and Keerthi - Uru Repayment
+    Assets:Banking:HDFC    ₹2480.00
+    Repayment
+
+2024/06/13 Vice
+    Expenses:Misc:Entertainment:Vice    ₹36.00
+    Assets:Banking:HDFC
+
+2024/06/13 OpenAI 10$ Credits
+    Expenses:Learning    ₹985.00
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/06/12 21st Amendment
+    Expenses:Food:EatingOut    ₹1263.00
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/06/12 Vice
+    Expenses:Misc:Entertainment:Vice    ₹55.00
+    Assets:Banking:HDFC
+
+2024/06/12 Chocolates
+    Expenses:Food:Chocolates    ₹25.00
+    Assets:Banking:HDFC
+
+2024/06/18 Obsidian
+    Expenses:Subscriptions    ₹417.92
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/06/18 Vice
+    Expenses:Misc:Entertainment:Vice    ₹36.00
+    Assets:Banking:HDFC
+
+2024/06/18 Ironing
+    Expenses:SelfCare:Ironing    ₹120.00
+    Assets:Banking:HDFC
+
+2024/06/17 Badam Milk
+    Expenses:Food:DuringTravel    ₹30.00
+    Assets:Banking:HDFC
+
+2024/06/17 Credit Card Payment
+    Liabilities:Credit:ICICIAmazonPay    ₹967.00
+    Assets:Banking:HDFC
+
+2024/06/16 Apple Subscription - to stop
+    Expenses:Subscriptions    ₹1,999.00
+    Assets:Banking:HDFC
+
+2024/06/16 Chennai Bike - to ACJ
+    Expenses:Travel:Bike    ₹40.00
+    Assets:Banking:HDFC
+
+2024/06/16 Chennai Auto - Medavakkam to Thiruvannmayur
+    Expenses:Travel:Auto    ₹290.00
+    Assets:Banking:HDFC
+
+2024/06/16 Workona
+    Expenses:Subscriptions    ₹752.36
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/06/16 Vice
+    Expenses:Misc:Entertainment:Vice    ₹45.00
+    Assets:Banking:HDFC
+
+2024/06/15 Auto - to Bus Stand
+    Expenses:Travel:Auto    ₹200.00
+    Assets:Banking:HDFC
+
+2024/06/15 Lunch - with Adhu at Pind
+    Expenses:Food:EatingOut    ₹964.00
+    Assets:Banking:HDFC
+
+2024/06/15 Coke - Maharaja Movie
+    Expenses:Food:EatingOut    ₹390.00
+    Assets:Banking:HDFC
+
+2024/06/15 Books
+    Expenses:SelfCare:Books    ₹1,250.00
+    Assets:Banking:HDFC
+
+2024/06/15 A2B dinner with Adhu
+    Expenses:Food:EatingOut    ₹179.00
+    Assets:Banking:HDFC
+
+2024/06/15 Chennai Bike - to Medavakkam
+    Expenses:Travel:Bike    ₹130.00
+    Assets:Banking:HDFC
+
+2024/06/14 Dosa
+    Expenses:Food:EatingOut    ₹30.00
+    Assets:Banking:HDFC
+
+2024/06/14 Physio
+    Expenses:SelfCare:Physio    ₹1,500.00
+    Assets:Banking:HDFC
+
+2024/06/14 Vice
+    Expenses:Misc:Entertainment:Vice    ₹20.00
+    Assets:Banking:HDFC
+
+2024/06/14 Sante Spa - AV
+    Expenses:Food:EatingOut    ₹1,247.00
+    Assets:Banking:HDFC
+
+2024/06/14 Flavoured Milk
+    Expenses:Food:EatingOut    ₹55.00
+    Assets:Banking:HDFC
+
+2024/06/14 ShooterChewingGum
+    Expenses:Misc:Entertainment:Stuff    ₹500.00
+    Assets:Banking:HDFC
+
+2024/06/14 Vice
+    Expenses:Misc:Entertainment:Vice    ₹90.00
+    Assets:Banking:HDFC
+
+2024/06/22 Bounty + Badam Milk
+    Expenses:Food:DuringTravel    ₹175.00
+    Assets:Banking:HDFC
+
+2024/06/21 Vice
+    Expenses:Misc:Entertainment:Vice    ₹60.00
+    Assets:Banking:HDFC
+
+2024/06/21 Chocolates
+    Expenses:Food:Chocolates    ₹10.00
+    Assets:Banking:HDFC
+
+2024/06/21 Auto - to bus stand
+    Expenses:Travel:Auto    ₹179.00
+    Assets:Banking:HDFC
+
+2024/06/21 Chikkies
+    Expenses:Food:DuringTravel    ₹90.00
+    Assets:Banking:HDFC
+
+2024/06/20 Rasam
+    Expenses:Food:Groceries    ₹35.00
+    Assets:Banking:HDFC
+
+2024/06/20 Vice
+    Expenses:Misc:Entertainment:Vice    ₹84.00
+    Assets:Banking:HDFC
+
+2024/06/20 Medicines - Cold
+    Expenses:SelfCare:Medicines    ₹120.00
+    Assets:Banking:HDFC
+
+2024/06/20 Hara Dhania
+    Expenses:Food:Groceries    ₹10.00
+    Assets:Banking:HDFC
+
+2024/06/21 Netflix
+    Expenses:Subscriptions    ₹649.00
+    Liabilities:Credit Cards:ICICI
+
+2024/06/19 JioFiber - Setup
+    Expenses:Subscriptions    ₹1.00
+    Assets:Banking:HDFC
+
+2024/06/19 Bus - to Coimbatore
+    Expenses:Travel:Bus    ₹2,346.00
+    Assets:Banking:HDFC
+
+2024/06/25 Subscription Setup
+    Expenses:Subscriptions    ₹2.00
+    Assets:Banking:HDFC
+
+2024/06/25 Subscription Setup
+    Expenses:Subscriptions    ₹2.00
+    Assets:Banking:HDFC
+
+2024/06/26 Ice Cream
+    Expenses:Food:IceCream    ₹30.00
+    Assets:Banking:HDFC
+
+2024/06/26 Popcorn + Fanta
+    Expenses:Food:EatingOut    ₹550.00
+    Assets:Banking:HDFC
+
+2024/06/26 Inside Out 2 - Movie Ticket
+    Expenses:Misc:Entertainment:Movie    ₹175.66
+    Assets:Banking:HDFC
+
+2024/06/27 Puffs
+    Expenses:Food:EatingOut    ₹50.00
+    Assets:Banking:HDFC
+
+2024/06/27 Kalki - Movie Ticket
+    Expenses:Misc:Entertainment:Movie    ₹183.60
+    Assets:Banking:HDFC
+
+2024/06/27 Popcorn + Monster Energy
+    Expenses:Misc:Entertainment:Movie    ₹260.00
+    Assets:Banking:HDFC
+
+2024/06/28 YouTube
+    Expenses:Subscriptions    ₹129.00
+    Assets:Banking:HDFC
+
+2024/06/28 Bus - to Bangalore
+    Expenses:Travel:Bus    ₹2,169.30
+    Assets:Banking:HDFC
+
+2024/06/29 Kanth Gift
+    Expenses:Gifts    ₹5,850.00
+    Assets:Banking:HDFC
+
+2024/06/29 Barber
+    Expenses:SelfCare:Barber    ₹600.00
+    Assets:Banking:HDFC
+
+2024/06/29 Vice
+    Expenses:Misc:Entertainment:Vice    ₹80.00
+    Assets:Banking:HDFC
+
+2024/06/29 Auto - back home
+    Expenses:Travel:Auto    ₹60.00
+    Assets:Banking:HDFC
+
+2024/06/29 Badam Milk
+    Expenses:Food:DuringTravel    ₹50.00
+    Assets:Banking:HDFC
+
+2024/06/30 Parking
+    Expenses:Bike:Parking    ₹40.00
+    Assets:Banking:HDFC
+
+2024/06/30 Tapri with Kanth
+    Expenses:Food:EatingOut    ₹70.00
+    Assets:Banking:HDFC
+
+2024/06/29 Vice
+    Expenses:Misc:Entertainment:Vice    ₹80.00
+    Assets:Banking:HDFC
+
+2024/06/30 Bike Petrolium
+    Expenses:Bike:Fuel    ₹1,077.97
+    Liabilities:Credit Cards:ICICI
+
+2024/06/30 Parking
+    Expenses:Bike:Parking    ₹40.00
+    Assets:Banking:HDFC
+
+2024/06/30 Tapri with Kanth
+    Expenses:Food:EatingOut    ₹70.00
+    Assets:Banking:HDFC
+
+2024/07/01 Pani puri with Vandita
+    Expenses:Food:EatingOut    ₹100.00
+    Assets:Banking:HDFC
+
+2024/07/01 Coconut water with Dhaval
+    Expenses:Food:EatingOut    ₹100.00
+    Assets:Banking:HDFC
+
+2024/07/02 Teku Salary
+    Expenses:Home:Cook    ₹4,000.00
+    Assets:Banking:HDFC
+
+2024/07/02 Poha and Fruits
+    Expenses:Food:Groceries    ₹198.00
+    Assets:Banking:HDFC
+
+2024/07/02 Zerodha Mandate
+    Assets:Zerodha:Funds    ₹50,000.00
+    Assets:Banking:SBI
+
+2024/07/02 ThirdWave with Arghya
+    Expenses:Food:EatingOut    ₹820.00
+    Assets:Banking:HDFC
+
+2024/07/03 Credit Card Payment
+    Liabilities:Credit:HDFCMoneyBack    ₹2,750.00
+    Assets:Banking:HDFC
+
+2024/07/03 Credit Card Payment
+    Liabilities:Credit:HDFCSwiggy     ₹8,777.00
+    Assets:Banking:HDFC
+
