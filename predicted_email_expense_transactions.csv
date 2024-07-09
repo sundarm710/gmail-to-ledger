@@ -1,0 +1,78 @@
+date,amount,recipient,account_last4,type,expense_account,timestamp,Description,toAccount,predicted_toAccount_with_description,predicted_toAccount_without_description
+2024-07-07,697.0,zomatoltd9.rzp@mairtel,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 07 Jul 2024 02:18:50 +0530",Pizza at Anirban Place,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-07-07,478.0,cornerhouseicecreams.42287574@hdfcbank,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 7 Jul 2024 11:56:59 +0000",IceCream with cousins,Expenses:Food:IceCream,Expenses:Food:IceCream,Expenses:Food:IceCream
+2024-07-07,54.0,paytmqr1umk4l0slf@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 7 Jul 2024 12:21:12 +0000",Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice
+2024-07-07,1386.26,paytm-64400884@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 7 Jul 2024 16:10:20 +0000",,,Expenses:Food:EatingOut,Food:EatingOut
+2024-07-06,150.0,q285919423@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 06 Jul 2024 18:39:27 +0530",Bakery,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-07-05,44.0,paytmqr165j8a@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 05 Jul 2024 17:22:35 +0530",Boost + Chikki,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-07-05,50.0,paytmqr2810050501011hwpvdn8rfxl@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 05 Jul 2024 17:26:40 +0530",Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice
+2024-07-05,2300.0,6362172348@kotak,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 5 Jul 2024 15:25:48 +0000",Stuff,Misc:Entertainment:Stuff,Misc:Entertainment:Stuff,Misc:Entertainment:Stuff
+2024-07-04,2000.0,lotusgatewelfareassociation@oksbi,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 04 Jul 2024 12:08:35 +0530",Maintenence,Expenses:Home:Maintenence,Expenses:Home:Maintenence,Expenses:Home:Maintenence
+2024-07-04,50.0,q081653147@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 04 Jul 2024 18:36:43 +0530",Pani Puri,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-07-04,60.0,paytm.s10j8ey@pty,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 04 Jul 2024 18:37:45 +0530",Vice + Chocolate,Expenses:Misc:Entertainment:Vice,Expenses:Food:EatingOut,Misc:Entertainment:Vice
+2024-07-04,119.0,SPOTIFY SI.,8004,ICICI Credit Card,Liabilities:Credit Cards:ICICI,"Thu, 4 Jul 2024 16:03:28 +0530",Subscription,Expenses:Subscriptions,Expenses:Bike:Fuel,Expenes:Subscriptions
+2024-07-03,8777.0,cred.club@axisb,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 03 Jul 2024 10:48:42 +0530",Credit Card Payment,Liabilities:Credit:HDFCSwiggy ,Liabilities:Credit:HDFCSwiggy ,Liabilities:Credit:HDFCSwiggy 
+2024-07-03,2750.0,cred.club@axisb,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 03 Jul 2024 10:48:59 +0530",Credit Card Payment,Liabilities:Credit:HDFCMoneyBack,Liabilities:Credit:HDFCSwiggy ,Liabilities:Credit:HDFCSwiggy 
+2024-07-03,60.0,q506996751@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 03 Jul 2024 19:19:55 +0530",Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice
+2024-07-03,80.0,q261422290@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 3 Jul 2024 13:57:37 +0000",Ironing,SelfCare:Ironing,SelfCare:Ironing,SelfCare:Ironing
+2024-07-02,820.0,q308655340@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 02 Jul 2024 02:21:31 +0530",ThirdWave with Arghya,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-07-02,50000.0,Transfer,517,SBI Account,Assets:Banking:SBI,"Tue, 02 Jul 2024 13:09:38 +0530",Zerodha Mandate,Assets:Zerodha:Funds,Assets:Zerodha:Funds,Assets:Zerodha:Funds
+2024-07-02,198.0,q899433963@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 02 Jul 2024 19:29:55 +0530",Poha and Fruits,Expenses:Food:Groceries,Expenses:Food:Groceries,Expenses:Food:Groceries
+2024-07-02,4000.0,tekbahadurbhatt@okicici,1455,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 2 Jul 2024 08:07:01 +0000",Teku Salary,Expenses:Home:Cook,Expenses:Food:EatingOut,Misc:Entertainment:Stuff
+2024-07-01,100.0,paytmqrqidoauu762@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Mon, 01 Jul 2024 17:10:13 +0530",Coconut water with Dhaval,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-07-01,100.0,q081653147@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Mon, 01 Jul 2024 17:46:47 +0530",Pani puri with Vandita,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-06-30,70.0,paytmqr1kskbbo32p@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 30 Jun 2024 17:37:58 +0530",Tapri with Kanth,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-06-30,40.0,q091501114@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 30 Jun 2024 18:42:25 +0530",Parking,Expenses:Bike:Parking,Expenses:Bike:Parking,Expenses:Bike:Parking
+2024-06-30,1077.97,GREENFINCH ENERGY.,8004,Liabilities Credit ICICI,Liabilities:Credit Cards:ICICI,"Sun, 30 Jun 2024 18:54:52 +0530",Bike Petrolium,Expenses:Bike:Fuel,Expenses:Bike:Fuel,Expenses:Bike:Fuel
+2024-06-29,50.0,q113098600@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 29 Jun 2024 00:47:48 +0530",Badam Milk,Expenses:Food:DuringTravel,Expenses:Food:DuringTravel,Expenses:Food:DuringTravel
+2024-06-29,60.0,amzn0026776671@apl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 29 Jun 2024 07:08:00 +0530",Auto - back home,Expenes:Travel:Auto,Expenes:Travel:Auto,Expenes:Travel:Auto
+2024-06-29,80.0,q161867767@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 29 Jun 2024 07:12:23 +0530",Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice
+2024-06-29,600.0,q554038356@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 29 Jun 2024 19:07:25 +0530",Barber,Expenses:SelfCare:Barber,Expenses:SelfCare:Barber,Expenses:SelfCare:Barber
+2024-06-29,5850.0,paytmqr14b2ro@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 29 Jun 2024 19:24:45 +0530",Kanth Gift,Expenses:Gifts,Expenses:Food:EatingOut,Liabilities:Credit:HDFCSwiggy 
+2024-06-28,2169.3,credpay.redbus@axisb,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 28 Jun 2024 02:00:04 +0530",Bus - to Bangalore,Expenses:Travel:Bus,Expenses:Travel:Bus,Expenses:Travel:Bus
+2024-06-28,129.0,GOOGLE PLAY SER CYBS S,2225,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 28 Jun 2024 07:41:01 +0000",YouTube,Expenses:Subscriptions,Expenses:Subscriptions,Expenses:Subscriptions
+2024-06-27,50.0,q774575600@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 27 Jun 2024 22:09:50 +0530",Puffs,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Misc:Entertainment:Vice
+2024-06-27,260.0,q592883948@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 27 Jun 2024 23:54:48 +0530",Popcorn + Monster Energy,Expenses:Misc:Entertainment:Movie,Expenses:Misc:Entertainment:Movie,Expenses:Misc:Entertainment:Movie
+2024-06-27,183.6,amznplpvrv2041234@yapl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 27 Jun 2024 23:54:48 +0530",Kalki - Movie Ticket,Expenses:Misc:Entertainment:Movie,Expenses:Misc:Entertainment:Movie,Expenses:Misc:Entertainment:Movie
+2024-06-26,175.66,amznplpvrv2041234@yapl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 26 Jun 2024 19:18:08 +0530",Inside Out 2 - Movie Ticket,Expenses:Misc:Entertainment:Movie,Expenses:Food:EatingOut,Expenses:Misc:Entertainment:Movie
+2024-06-26,550.0,amznplpvrv2041225@yapl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 26 Jun 2024 19:20:28 +0530",Popcorn + Fanta,Expenses:Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-06-26,30.0,mcdonalds.41193873@hdfcbank,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 26 Jun 2024 20:59:18 +0530",Ice Cream,Expenses:Food:IceCream,Expenses:Food:IceCream,Expenses:Food:IceCream
+2024-06-25,2.0,GOOGLE PLAY,2225,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 25 Jun 2024 15:45:57 +0530",Subscription Setup,Expenses:Subscriptions,Expenses:Subscriptions,Expenses:Subscriptions
+2024-06-25,2.0,GOOGLE PLAY,2225,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 25 Jun 2024 15:47:15 +0530",Subscription Setup,Expenses:Subscriptions,Expenses:Subscriptions,Expenses:Subscriptions
+2024-06-22,175.0,q754637755@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 22 Jun 2024 00:49:34 +0530",Bounty + Badam Milk,Expenses:Food:DuringTravel,Expenses:Food:DuringTravel,Expenses:Food:DuringTravel
+2024-06-21,60.0,paytmqr28100505010114ll87jdq573@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 21 Jun 2024 15:00:28 +0530",Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice
+2024-06-21,10.0,paytmqr28100505010114ll87jdq573@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 21 Jun 2024 15:01:04 +0530",Chocolates,Expenes:Food:Chocolates,Expenes:Food:Chocolates,Expenes:Food:Chocolates
+2024-06-21,649.0,NETFLIX.,8004,ICICI Credit Card,Liabilities:Credit Cards:ICICI,"Fri, 21 Jun 2024 21:47:41 +0530",Netflix,Expenes:Subscriptions,Expenes:Subscriptions,Expenes:Subscriptions
+2024-06-21,179.0,9945782590@ibl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 21 Jun 2024 22:50:08 +0530",Auto - to bus stand,Expenes:Travel:Auto,Expenes:Travel:Auto,Expenes:Travel:Auto
+2024-06-21,90.0,paytmqr1fqs43s38c@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 21 Jun 2024 22:55:37 +0530",Chikkies,Expenses:Food:DuringTravel,Expenses:Food:DuringTravel,Expenses:Food:DuringTravel
+2024-06-20,35.0,q434930714@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 20 Jun 2024 05:27:38 +0000",Rasam,Expenses:Food:Groceries,Expenses:Food:EatingOut,Food:EatingOut
+2024-06-20,84.0,q161867767@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 20 Jun 2024 10:50:46 +0530",Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice
+2024-06-20,120.0,q815162264@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 20 Jun 2024 10:53:36 +0530",Medicines - Cold,Expenses:SelfCare:Medicines,Expenses:SelfCare:Medicines,Expenses:SelfCare:Medicines
+2024-06-20,10.0,paytmqr281005050101c3saoljuoxhk@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 20 Jun 2024 10:56:21 +0530",Hara Dhania,Expenses:Food:Groceries,Expenses:Food:Groceries,Expenses:Food:Groceries
+2024-06-19,1.0,jiofiberprepaid@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 19 Jun 2024 04:34:59 +0530",JioFiber - Setup,Expenses:Subscriptions,Expenses:Subscriptions,Expenses:Subscriptions
+2024-06-19,2346.0,credpay.redbus@axisb,1455,HDFC Savings Account,Assets:Banking:HDFC,"Wed, 19 Jun 2024 19:52:37 +0530",Bus - to Coimbatore,Expenses:Travel:Bus,Expenses:Travel:Bus,Expenses:Travel:Bus
+2024-06-18,417.92,OBSIDIAN.MD,6815,Liabilities Credit HDFCMoneyBack,Liabilities:Credit Cards:HDFC,"Tue, 18 Jun 2024 02:43:49 +0530",Obsidian,Subscriptions,Subscriptions,Subscriptions
+2024-06-18,36.0,paytm.s10j8ey@pty,1455,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 18 Jun 2024 18:33:44 +0530",Vice,Misc:Entertainment:Vice,Misc:Entertainment:Vice,Misc:Entertainment:Vice
+2024-06-18,120.0,bharatpe.90070421313@fbpe,1455,HDFC Savings Account,Assets:Banking:HDFC,"Tue, 18 Jun 2024 18:35:59 +0530",Ironing,SelfCare:Ironing,SelfCare:Ironing,SelfCare:Ironing
+2024-06-17,30.0,paytmqr281005050101110vm4ufdww0@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Mon, 17 Jun 2024 02:22:52 +0530",Badam Milk,Food:DuringTravel,Food:DuringTravel,Food:DuringTravel
+2024-06-17,967.0,cred.club@axisb,1455,HDFC Savings Account,Assets:Banking:HDFC,"Mon, 17 Jun 2024 16:19:31 +0530",Credit Card Payment,Liabilities:Credit:ICICI,Liabilities:Credit:HDFCSwiggy ,Liabilities:Credit:HDFCSwiggy 
+2024-06-16,1999.0,appleservices.bdsi@hdfcbank,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 16 Jun 2024 02:59:21 +0530",Apple Subscription - to stop,Subscriptions,Subscriptions,Subscriptions
+2024-06-16,40.0,q933556737@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 16 Jun 2024 10:00:14 +0000",Chennai Bike - to ACJ,Travel:Bike,Travel:Bike,Travel:Bike
+2024-06-16,290.0,murthi.3939@oksbi,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 16 Jun 2024 13:48:07 +0530",Chennai Auto - Medavakkam to Thiruvannmayur,Travel:Auto,Travel:Auto,Travel:Auto
+2024-06-16,752.36,WORKONA,6815,Liabilities Credit HDFCMoneyBack,Liabilities:Credit Cards:HDFC,"Sun, 16 Jun 2024 15:06:34 +0000",Workona,Subscriptions,Subscriptions,Subscriptions
+2024-06-16,45.0,alaganmathi19702@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sun, 16 Jun 2024 15:52:49 +0530",Vice,Misc:Entertainment:Vice,Misc:Entertainment:Vice,Misc:Entertainment:Vice
+2024-06-15,200.0,8792139945@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 15 Jun 2024 04:26:46 +0530",Auto - to Bus Stand,Travel:Auto,Travel:Auto,Travel:Auto
+2024-06-15,964.0,pind.67026023@hdfcbank,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 15 Jun 2024 15:03:33 +0530",Lunch - with Adhu at Pind,Food:EatingOut,Food:EatingOut,Food:EatingOut
+2024-06-15,390.0,amznplpvrv2003403@yapl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 15 Jun 2024 15:24:25 +0530",Coke - Maharaja Movie,Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-06-15,1250.0,paytmqrjxl45x3zom@paytm,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 15 Jun 2024 19:01:38 +0530",Books,SelfCare:Books,SelfCare:Books,SelfCare:Books
+2024-06-15,179.0,a2btamilnadu@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 15 Jun 2024 20:56:16 +0530",A2B dinner with Adhu,Food:EatingOut,Expenses:Food:EatingOut,Expenses:Food:EatingOut
+2024-06-15,130.0,rajkumar.rajdx@okhdfcbank,1455,HDFC Savings Account,Assets:Banking:HDFC,"Sat, 15 Jun 2024 21:25:24 +0530",Chennai Bike - to Medavakkam,Travel:Bike,Travel:Bike,Travel:Bike
+2024-06-14,30.0,q120524431@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 10:44:26 +0530",Dosa,Food:EatingOut,Food:EatingOut,Food:EatingOut
+2024-06-14,1500.0,yossportshealthspeci.64020519@hdfcbank,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 12:08:17 +0530",Physio,SelfCare:Physio,SelfCare:Physio,SelfCare:Physio
+2024-06-14,20.0,bharatpe90727392254@yesbankltd,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 12:49:40 +0530",Vice,Misc:Entertainment:Vice,Misc:Entertainment:Vice,Misc:Entertainment:Vice
+2024-06-14,1247.0,q021660467@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 18:48:11 +0530",Sante Spa - AV,Food:EatingOut,Food:EatingOut,Food:EatingOut
+2024-06-14,55.0,q313923196@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 18:54:07 +0530",Flavoured Milk,Food:EatingOut,Food:EatingOut,Food:EatingOut
+2024-06-14,500.0,q898584904@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 20:39:40 +0530",Shooter+ChewingGum,Misc:Entertainment:Stuff,Misc:Entertainment:Stuff,Misc:Entertainment:Stuff
+2024-06-14,90.0,q530014777@ybl,1455,HDFC Savings Account,Assets:Banking:HDFC,"Fri, 14 Jun 2024 20:42:37 +0530",Vice,Misc:Entertainment:Vice,Expenses:Misc:Entertainment:Vice,Expenses:Food:EatingOut
+2024-06-13,36.0,paytm.s10j8ey@pty,1455,HDFC Savings Account,Assets:Banking:HDFC,"Thu, 13 Jun 2024 20:59:22 +0530",,,Expenses:Food:EatingOut,Misc:Entertainment:Vice
+2024-06-13,985.16,OPENAI,6815,Liabilities Credit HDFCMoneyBack,Liabilities:Credit:HDFCMoneyBack,"Wed, 12 Jun 2024 22:29:40 +0000",,,Subscriptions,Subscriptions

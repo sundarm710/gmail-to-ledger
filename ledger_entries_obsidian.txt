@@ -58,13 +58,17 @@
     Travel:Auto    ₹200.00
     Assets:Banking:HDFC
 
+2024/06/16 Chennai Bike - to ACJ
+    Travel:Bike    ₹40.00
+    Assets:Banking:HDFC
+
 2024/06/16 Apple Subscription - to stop
     Subscriptions    ₹1,999.00
     Assets:Banking:HDFC
 
-2024/06/16 Chennai Bike - to ACJ
-    Travel:Bike    ₹40.00
-    Assets:Banking:HDFC
+2024/06/16 Workona
+    Subscriptions    ₹752.36
+    Liabilities:Credit Cards:HDFC
 
 2024/06/16 Chennai Auto - Medavakkam to Thiruvannmayur
     Travel:Auto    ₹290.00
@@ -73,10 +77,6 @@
 2024/06/16 Vice
     Misc:Entertainment:Vice    ₹45.00
     Assets:Banking:HDFC
-
-2024/06/16 Workona
-    Subscriptions    ₹752.36
-    Liabilities:Credit Cards:HDFC
 
 2024/06/17 Credit Card Payment
     Liabilities:Credit:ICICI    ₹967.00
@@ -106,14 +106,6 @@
     Expenses:Subscriptions    ₹1.00
     Assets:Banking:HDFC
 
-2024/06/20 Hara Dhania
-    Expenses:Food:Groceries    ₹10.00
-    Assets:Banking:HDFC
-
-2024/06/20 Medicines - Cold
-    Expenses:SelfCare:Medicines    ₹120.00
-    Assets:Banking:HDFC
-
 2024/06/20 Vice
     Expenses:Misc:Entertainment:Vice    ₹84.00
     Assets:Banking:HDFC
@@ -122,8 +114,20 @@
     Expenses:Food:Groceries    ₹35.00
     Assets:Banking:HDFC
 
+2024/06/20 Hara Dhania
+    Expenses:Food:Groceries    ₹10.00
+    Assets:Banking:HDFC
+
+2024/06/20 Medicines - Cold
+    Expenses:SelfCare:Medicines    ₹120.00
+    Assets:Banking:HDFC
+
 2024/06/21 Chikkies
     Expenses:Food:DuringTravel    ₹90.00
+    Assets:Banking:HDFC
+
+2024/06/21 Auto - to bus stand
+    Expenes:Travel:Auto    ₹179.00
     Assets:Banking:HDFC
 
 2024/06/21 Netflix
@@ -138,10 +142,6 @@
     Expenses:Misc:Entertainment:Vice    ₹60.00
     Assets:Banking:HDFC
 
-2024/06/21 Auto - to bus stand
-    Expenes:Travel:Auto    ₹179.00
-    Assets:Banking:HDFC
-
 2024/06/22 Bounty + Badam Milk
     Expenses:Food:DuringTravel    ₹175.00
     Assets:Banking:HDFC
@@ -154,16 +154,16 @@
     Expenses:Subscriptions    ₹2.00
     Assets:Banking:HDFC
 
-2024/06/26 Inside Out 2 - Movie Ticket
-    Expenses:Misc:Entertainment:Movie    ₹175.66
+2024/06/26 Popcorn + Fanta
+    Expenses:Food:EatingOut    ₹550.00
     Assets:Banking:HDFC
 
 2024/06/26 Ice Cream
     Expenses:Food:IceCream    ₹30.00
     Assets:Banking:HDFC
 
-2024/06/26 Popcorn + Fanta
-    Expenses:Food:EatingOut    ₹550.00
+2024/06/26 Inside Out 2 - Movie Ticket
+    Expenses:Misc:Entertainment:Movie    ₹175.66
     Assets:Banking:HDFC
 
 2024/06/27 Kalki - Movie Ticket
@@ -226,20 +226,28 @@
     Expenses:Food:EatingOut    ₹100.00
     Assets:Banking:HDFC
 
-2024/07/02 Teku Salary
-    Expenses:Home:Cook    ₹4,000.00
+2024/07/02 ThirdWave with Arghya
+    Expenses:Food:EatingOut    ₹820.00
     Assets:Banking:HDFC
 
 2024/07/02 Poha and Fruits
     Expenses:Food:Groceries    ₹198.00
     Assets:Banking:HDFC
 
+2024/07/02 Teku Salary
+    Expenses:Home:Cook    ₹4,000.00
+    Assets:Banking:HDFC
+
 2024/07/02 Zerodha Mandate
     Assets:Zerodha:Funds    ₹50,000.00
     Assets:Banking:SBI
 
-2024/07/02 ThirdWave with Arghya
-    Expenses:Food:EatingOut    ₹820.00
+2024/07/03 Ironing
+    Expenses:SelfCare:Ironing    ₹80.00
+    Assets:Banking:HDFC
+
+2024/07/03 Vice
+    Expenses:Misc:Entertainment:Vice    ₹60.00
     Assets:Banking:HDFC
 
 2024/07/03 Credit Card Payment
@@ -248,5 +256,53 @@
 
 2024/07/03 Credit Card Payment
     Liabilities:Credit:HDFCSwiggy     ₹8,777.00
+    Assets:Banking:HDFC
+
+2024/07/04 Pani Puri
+    Expenses:Food:EatingOut    ₹50.00
+    Assets:Banking:HDFC
+
+2024/07/04 Maintenence
+    Expenses:Home:Maintenence    ₹2,000.00
+    Assets:Banking:HDFC
+
+2024/07/04 Subscription
+    Expenses:Subscriptions    ₹119.00
+    Liabilities:Credit Cards:ICICI
+
+2024/07/04 Vice + Chocolate
+    Expenses:Misc:Entertainment:Vice    ₹60.00
+    Assets:Banking:HDFC
+
+2024/07/05 Stuff
+    Expenses:Misc:Entertainment:Stuff    ₹2,300.00
+    Assets:Banking:HDFC
+
+2024/07/05 Vice
+    Expenses:Misc:Entertainment:Vice    ₹50.00
+    Assets:Banking:HDFC
+
+2024/07/05 Boost + Chikki
+    Expenses:Food:EatingOut    ₹44.00
+    Assets:Banking:HDFC
+
+2024/07/06 Bakery
+    Expenses:Food:EatingOut    ₹150.00
+    Assets:Banking:HDFC
+
+2024/07/07 Ratnadeep Shoppping
+    Expenses:Food:Groceries    ₹1,386.26
+    Assets:Banking:HDFC
+
+2024/07/07 Vice
+    Expenses:Misc:Entertainment:Vice    ₹54.00
+    Assets:Banking:HDFC
+
+2024/07/07 IceCream with cousins
+    Expenses:Food:IceCream    ₹478.00
+    Assets:Banking:HDFC
+
+2024/07/07 Pizza at Anirban Place
+    Expenses:Food:EatingOut    ₹697.00
     Assets:Banking:HDFC
 

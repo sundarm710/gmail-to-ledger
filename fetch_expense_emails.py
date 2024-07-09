@@ -97,106 +97,73 @@ def get_expense_emails(mail, label, since_date):
         logging.error("Failed to get expense emails: {}".format(e))
         raise
 
+# Define patterns and corresponding transaction types and accounts
+PATTERNS = {
+    'HDFC Savings Account': {
+        'pattern': r'Rs\.(\d+\.\d{2}) has been debited from account \*\*(\d{4}) to VPA ([\w\.\-]+@[\w\.\-]+) on (\d{2}-\d{2}-\d{2})',
+        'expense_account': 'Assets:Banking:HDFC'
+    },
+    'Liabilities Credit HDFCMoneyBack': {
+        'pattern': r'HDFC Bank Credit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\.\-]+) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2})',
+        'expense_account': 'Liabilities:Credit Cards:HDFC'
+    },
+    'Liabilities Credit ICICI': {
+        'pattern': r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\.\d{2}) on (\w+ \d{2}, \d{4} at \d{2}:\d{2}:\d{2})\. Info: ([\w\s\.]+)',
+        'expense_account': 'Liabilities:Credit Cards:ICICI'
+    },
+    'SBI Debit Card': {
+        'pattern': r'Your A/C \w+(\d{4}) has a debit by transfer of Rs (\d+,\d+\.\d{2}) on (\d{2}/\d{2}/\d{2})',
+        'expense_account': 'Assets:Banking:SBI'
+    },
+    'HDFC Debit Card': {
+        'pattern': r'HDFC Bank Debit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\s\.]+) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2})',
+        'expense_account': 'Assets:Banking:HDFC'
+    }
+}
+
 def parse_transaction_details(subject, body):
     try:
-        if 'You have done a UPI txn. Check details!' in subject:
-            # Case 1: HDFC Savings Account
-            pattern = r'Rs\.(\d+\.\d{2}) has been debited from account \*\*(\d{4}) to VPA ([\w\.\@]+) on (\d{2}-\d{2}-\d{2})'
-            match = re.search(pattern, body)
-            if match:
-                amount, account_last4, recipient, date = match.groups()
-                date = pd.to_datetime(date, format='%d-%m-%y').strftime('%Y-%m-%d')  # Parse and format date
-                print("HDFC Savings Account details extracted:", amount, account_last4, recipient, date)
-                return {
-                    'date': date,
-                    'amount': float(amount),
-                    'recipient': recipient,
-                    'account_last4': account_last4,
-                    'type': 'HDFC Savings Account',
-                    'expense_account': 'Assets:Banking:HDFC'
-                }
+        for transaction_type, details in PATTERNS.items():
+            pattern = details['pattern']
+            expense_account = details['expense_account']
             
-        elif 'Update on your HDFC Bank Credit Card' in subject:
-            print ("HDFC Credit Card processing...")
-            # Case 2: HDFC Credit Card
-            if '6815' in body:
-                pattern = r'HDFC Bank Credit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\.\-]+) on (\d{2}-\d{2}-\d{4})'
-                match = re.search(pattern, body)
-                if match:
-                    card_last4, amount, recipient, date = match.groups()
-                    print (date)
-                    formatted_date = pd.to_datetime(date, format="%d-%m-%Y").strftime("%Y-%m-%d")
-                    print (formatted_date)
-                    print("HDFC Credit Card details extracted:", amount, card_last4, recipient, formatted_date)
-                    return {
-                        'date': formatted_date,
-                        'amount': float(amount),
-                        'recipient': recipient,
-                        'account_last4': card_last4,
-                        'type': 'Liabilities Credit HDFCMoneyBack',
-                        'expense_account': 'Liabilities:Credit:HDFCMoneyBack'
-                    }
-
-        elif 'ICICI Bank Credit Card' in subject:
-            print ('ICICI Credit Card processing...')
-            # Case 3: ICICI Credit Card
-            if '8004' in body:
-                print ('ICICI Credit Card processing entered...')
-                pattern = r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\.\d{2}) on (\w+ \d{2}, \d{4} at \d{2}:\d{2}:\d{2})\. Info: ([\w\s\.]+)'
-                match = re.search(pattern, body)
-                if match:
-                    print ('ICICI Credit Card processing match.')
-                    card_last4, amount, datetime_str, recipient = match.groups()
-                    date = pd.to_datetime(datetime_str, format='%b %d, %Y at %H:%M:%S').strftime('%Y-%m-%d')  # Parse and format date
-                    amount = float(amount.replace(',', ''))  # Remove comma from amount and convert to float
-                    print("ICICI Credit Card details extracted:", amount, card_last4, recipient, date)
-                    return {
-                        'date': date,
-                        'amount': amount,
-                        'recipient': recipient.strip(),
-                        'account_last4': card_last4,
-                        'type': 'ICICI Credit Card',
-                        'expense_account': 'Liabilities:Credit Cards:ICICI'
-                    }
-                
-        elif 'View: Account update for your HDFC Bank A/c' in subject:
-            # New Case: HDFC Debit Card
-            pattern = r'HDFC Bank Debit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\s\.]+) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2})'
             match = re.search(pattern, body)
             if match:
-                account_last4, amount, recipient, datetime_str = match.groups()
-                date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')  # Parse and format date
+                groups = match.groups()
+                
+                if transaction_type == 'HDFC Savings Account':
+                    amount, account_last4, recipient, date = groups
+                    date = pd.to_datetime(date, format='%d-%m-%y').strftime('%Y-%m-%d')
+                elif transaction_type == 'Liabilities Credit HDFCMoneyBack':
+                    account_last4, amount, recipient, datetime_str = groups
+                    date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')
+                elif transaction_type == 'Liabilities Credit ICICI':
+                    account_last4, amount, datetime_str, recipient = groups
+                    date = pd.to_datetime(datetime_str, format='%b %d, %Y at %H:%M:%S').strftime('%Y-%m-%d')
+                    amount = float(amount.replace(',', ''))
+                elif transaction_type == 'SBI Debit Card':
+                    account_last4, amount, date = groups
+                    date = pd.to_datetime(date, format='%d/%m/%y').strftime('%Y-%m-%d')
+                    amount = float(amount.replace(',', ''))
+                    recipient = "Transfer"
+                elif transaction_type == 'HDFC Debit Card':
+                    account_last4, amount, recipient, datetime_str = groups
+                    date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')
+
                 return {
                     'date': date,
                     'amount': float(amount),
                     'recipient': recipient.strip(),
                     'account_last4': account_last4,
-                    'type': 'HDFC Savings Account',
-                    'expense_account': 'Assets:Banking:HDFC'
+                    'type': transaction_type,
+                    'expense_account': expense_account
                 }
-            
-        elif 'CBSSBI ALERT' in subject:
-            # New Case: SBI Debit Card
-            pattern = r'Your A/C \w+(\d{4}) has a debit by transfer of Rs (\d+,\d+\.\d{2}) on (\d{2}/\d{2}/\d{2})'
-            match = re.search(pattern, body)
-            if match:
-                account_last4, amount, date = match.groups()
-                date = pd.to_datetime(date, format='%d/%m/%y').strftime('%Y-%m-%d')  # Parse and format date
-                amount = float(amount.replace(',', ''))  # Remove comma from amount and convert to float
-                recipient = "Transfer"
-                return {
-                    'date': date,
-                    'amount': amount,
-                    'recipient': recipient,
-                    'account_last4': account_last4,
-                    'type': 'SBI Account',
-                    'expense_account': 'Assets:Banking:SBI'
-                }
-        else:
-            print("No matching transaction details for subject:", subject)
+        
+        print("No matching transaction details for subject:", subject)
     except Exception as e:
         logging.error("Failed to parse transaction details: {}".format(e))
         raise
+
     return None
 
 def merge_with_existing_csv(df, csv_file):
