@@ -1,0 +1,8 @@
+date,amount,recipient,account_last4,Description,Predicted_Description,toAccount,Predicted_toAccount
+2024-07-09,30.0,q943975619@ybl,1455,,Chennai Bike - to ACJ,,Travel:Bike
+2024-07-09,40.0,q506996751@ybl,1455,,Rasam,,Expenses:Food:Groceries
+2024-07-08,1150.0,1mgtechnologies@paytm,1455,,Stuff,,Expenses:Misc:Entertainment:Stuff
+2024-07-08,989.0,IND,8004,,Bike Petrolium,,Expenses:Bike:Fuel
+2024-07-08,590.0,paytm-ptmbbp@paytm,1455,,Ratnadeep Shoppping,,Expenses:Food:EatingOut
+2024-06-13,36.0,paytm.s10j8ey@pty,1455,,Vice,,Misc:Entertainment:Vice
+2024-06-13,985.16,OPENAI,6815,,Obsidian,,Subscriptions

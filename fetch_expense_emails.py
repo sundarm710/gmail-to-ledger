@@ -67,6 +67,7 @@ def get_expense_emails(mail, label, since_date):
                                     body = part.get_payload(decode=True).decode()
                                     print("Email body fetched and decoded.")
                                 except AttributeError as e:
+                                    print (content_disposition)
                                     print(f"Error decoding email body part: {e}")
                                     continue
                                 break
@@ -105,14 +106,18 @@ PATTERNS = {
     },
     'Liabilities Credit HDFCMoneyBack': {
         'pattern': r'HDFC Bank Credit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\.\-]+) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2})',
-        'expense_account': 'Liabilities:Credit Cards:HDFC'
+        'expense_account': 'Liabilities:Credit:HDFCMoneyBack'
     },
     'Liabilities Credit ICICI': {
         'pattern': r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\.\d{2}) on (\w+ \d{2}, \d{4} at \d{2}:\d{2}:\d{2})\. Info: ([\w\s\.]+)',
-        'expense_account': 'Liabilities:Credit Cards:ICICI'
+        'expense_account': 'Liabilities:Credit:ICICIAmazonPay'
     },
     'SBI Debit Card': {
         'pattern': r'Your A/C \w+(\d{4}) has a debit by transfer of Rs (\d+,\d+\.\d{2}) on (\d{2}/\d{2}/\d{2})',
+        'expense_account': 'Assets:Banking:SBI'
+    },
+    'SBI NACH': {
+        'pattern': r'Your A/C \w+(\d{4}) has a debit by NACH of Rs (\d+,\d+,\d+\.\d{2}) on (\d{2}/\d{2}/\d{2})',
         'expense_account': 'Assets:Banking:SBI'
     },
     'HDFC Debit Card': {
@@ -146,6 +151,11 @@ def parse_transaction_details(subject, body):
                     date = pd.to_datetime(date, format='%d/%m/%y').strftime('%Y-%m-%d')
                     amount = float(amount.replace(',', ''))
                     recipient = "Transfer"
+                elif transaction_type == 'SBI NACH':
+                    account_last4, amount, date = groups
+                    date = pd.to_datetime(date, format='%d/%m/%y').strftime('%Y-%m-%d')
+                    amount = float(amount.replace(',', ''))
+                    recipient = "NACH Debit"
                 elif transaction_type == 'HDFC Debit Card':
                     account_last4, amount, recipient, datetime_str = groups
                     date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')
@@ -198,7 +208,7 @@ def merge_with_existing_csv(df, csv_file):
         combined_df = combined_df.drop(columns=['has_description'])
         # print (combined_df)
         # Sort by date to keep it organized
-        combined_df = combined_df.sort_values(by=['date', 'timestamp'], ascending=[False, True]).reset_index(drop=True)
+        combined_df = combined_df.sort_values(by=['date', 'timestamp'], ascending=[False, False]).reset_index(drop=True)
         print("Data cleaned and merged successfully.")
     else:
         print(f"CSV file '{csv_file}' does not exist. Creating new file.")
@@ -212,7 +222,7 @@ def main():
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    since_date = '07-Jul-2024'
+    since_date = '10-Jul-2024'
     df = get_expense_emails(mail, label, since_date)
 
     if not df.empty:
