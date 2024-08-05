@@ -108,8 +108,16 @@ PATTERNS = {
         'pattern': r'HDFC Bank Credit Card ending (\d{4}) for Rs (\d+\.\d{2}) at ([\w\.\-]+) on (\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2})',
         'expense_account': 'Liabilities:Credit:HDFCMoneyBack'
     },
+    'Liabilities Credit HDFCMoneyBack SmartPay': {
+        'pattern': r'Your ([\w\.\-] +) of Rs. (\d+\.\d{2}) for',
+        'expense_account': 'Liabilities:Credit:HDFCMoneyBack'
+    },
     'Liabilities Credit ICICI': {
         'pattern': r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\.\d{2}) on (\w+ \d{2}, \d{4} at \d{2}:\d{2}:\d{2})\. Info: ([\w\s\.]+)',
+        'expense_account': 'Liabilities:Credit:ICICIAmazonPay'
+    },
+    'Liabilities Credit ICICI': {
+        'pattern': r'ICICI Bank Credit Card XX(\d{4}) has been used for a transaction of INR (\d+\,\d+\.\d{2}) on (\w+ \d{2}, \d{4} at \d{2}:\d{2}:\d{2})\. Info: ([\w\s\.]+)',
         'expense_account': 'Liabilities:Credit:ICICIAmazonPay'
     },
     'SBI Debit Card': {
@@ -159,6 +167,11 @@ def parse_transaction_details(subject, body):
                 elif transaction_type == 'HDFC Debit Card':
                     account_last4, amount, recipient, datetime_str = groups
                     date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')
+                elif transaction_type == 'Liabilities Credit HDFCMoneyBack SmartPay':
+                    recipient, amount = groups
+                    date = pd.to_datetime('today').strftime('%Y-%m-%d')
+                    amount = float(amount)
+                    account_last4 = 'XXXX'
 
                 return {
                     'date': date,
@@ -222,7 +235,7 @@ def main():
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    since_date = '10-Jul-2024'
+    since_date = '01-Aug-2024'
     df = get_expense_emails(mail, label, since_date)
 
     if not df.empty:
