@@ -235,7 +235,7 @@ def main():
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    since_date = '01-Aug-2024'
+    since_date = '04-Aug-2024'
     df = get_expense_emails(mail, label, since_date)
 
     if not df.empty:
