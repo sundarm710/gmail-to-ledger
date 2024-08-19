@@ -6,6 +6,7 @@ from email.header import decode_header
 import pandas as pd
 import re
 import os
+from datetime import datetime, timedelta
 
 def load_credentials(filepath):
     try:
@@ -235,7 +236,10 @@ def main():
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    since_date = '04-Aug-2024'
+    one_week_ago = datetime.now() - timedelta(weeks=1)
+
+    # Format the date as 'DD-MMM-YYYY'
+    since_date = one_week_ago.strftime('%d-%b-%Y')
     df = get_expense_emails(mail, label, since_date)
 
     if not df.empty:

@@ -758,7 +758,11 @@
     Assets:Banking:HDFC
 
 2024/08/01 Vice
-    Expenses:Vice:Stuff    ₹30.00
+    Expenses:Vice:C    ₹30.00
+    Assets:Banking:HDFC
+
+2024/08/01 Teku Salary
+    Expenses:Home:Cook    ₹6,000.00
     Assets:Banking:HDFC
 
 2024/08/02 Zerodha Mandate
@@ -825,4 +829,142 @@
     Expenses:Bike:Service    ₹2,000.00
     Assets:Banking:HDFC
 
+2024/08/07 Mango Lassi
+    Expenses:Food:EatingOut    ₹126.00
+    Assets:Banking:HDFC
 
+2024/08/07 Maintenence
+    Expenses:Home:Maintenence    ₹2,000.00
+    Assets:Banking:HDFC
+
+2024/08/07 Chocolates
+    Expenses:Food:Chocolates    ₹20.00
+    Assets:Banking:HDFC
+
+2024/08/07 Parotta
+    Expenses:Food:EatingOut    ₹50.00
+    Assets:Banking:HDFC
+
+2024/08/08 Samosa
+    Expenses:Food:EatingOut    ₹22.00
+    Assets:Banking:HDFC
+
+2024/08/08 Electricity
+    Expenses:Home:Electricity    ₹938.00
+    Assets:Banking:HDFC
+
+2024/08/08 Chikki
+    Expenses:Food:EatingOut    ₹10.00
+    Assets:Banking:HDFC
+
+2024/08/08 Lemon Tea
+    Expenses:Food:EatingOut    ₹12.00
+    Assets:Banking:HDFC
+
+2024/08/10 Home Loan
+    Expenses:Home:Loan    ₹105,779.00
+    Assets:Banking:SBI
+
+2024/08/10 Kadalai
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
+2024/08/10 Momo
+    Expenses:Food:EatingOut    ₹60.00
+    Assets:Banking:HDFC
+
+2024/08/10 Ratnadeep Shoppping
+    Expenses:Food:Groceries    ₹1,765.56
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/08/11 MeghnaFoods
+    Expenses:Food:Groceries    ₹1,312.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/08/11 Umesh
+    Expenses:Food:EatingOut    ₹110.00
+    Assets:Banking:HDFC
+
+2024/08/12 Coffee at Dera Punjab
+    Expenses:Food:EatingOut    ₹26.00
+    Assets:Banking:HDFC
+
+2024/08/12 Something
+    Expenses:Food:EatingOut    ₹38.00
+    Assets:Banking:HDFC
+
+2024/08/15 Idly Vada
+    Expenses:Food:EatingOut    ₹40.00
+    Assets:Banking:HDFC
+
+2024/08/15 Ice Cream
+    Expenses:Food:IceCream    ₹80.00
+    Assets:Banking:HDFC
+
+2024/08/16 Credit Card Payment
+    Liabilities:Credit:ICICIAmazonPay    ₹3,520.35
+    Assets:Banking:HDFC
+
+2024/08/16 Chikki
+    Expenses:Food:EatingOut    ₹10.00
+    Assets:Banking:HDFC
+
+2024/08/16 Chocolates
+    Expenses:Food:Chocolates    ₹20.00
+    Assets:Banking:HDFC
+
+2024/08/16 Ironing
+    Expenses:SelfCare:Ironing    ₹84.00
+    Assets:Banking:HDFC
+
+2024/08/16 Pineapple Juice
+    Expenses:Food:Juice    ₹55.00
+    Assets:Banking:HDFC
+
+2024/08/16 Workona
+    Expenses:Subscriptions:Workona    ₹756.14
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/08/16 JioFiber
+    Expenses:Subscriptions:Internet    ₹1,178.82
+    Assets:Banking:HDFC
+
+2024/08/16 Coffee
+    Expenses:Food:EatingOut    ₹53.00
+    Assets:Banking:HDFC
+
+2024/08/17 Bhel at Dera Punjab
+    Expenses:Food:EatingOut    ₹74.00
+    Assets:Banking:HDFC
+
+2024/08/17 Something
+    Expenses:Food:EatingOut    ₹30.00
+    Assets:Banking:HDFC
+
+2024/08/18 Gowdru Foods
+    Expenses:Food:EatingOut    ₹165.00
+    Assets:Banking:HDFC
+
+2024/08/18 Writers Circle
+    Expenses:SelfImprovement:SocialEvent    ₹1,000.00
+    Assets:Banking:HDFC
+
+2024/08/18 Vice
+    Expenses:Vice:C    ₹40.00
+    Assets:Banking:HDFC
+
+2024/08/18 Chicken Bowl
+    Expenses:Food:Swiggy    ₹390.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/08/18 Mutton Biryani
+    Expenses:Food:Swiggy    ₹390.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/08/18 Groceries
+    Expenses:Food:Groceries    ₹900.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/08/14 Ind Day Chocolates
+    Expenses:Food:Chocolates    ₹900.00
+    Liabilities:Credit:HDFCSwiggy
