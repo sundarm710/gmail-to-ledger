@@ -236,7 +236,7 @@ def main():
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    one_week_ago = datetime.now() - timedelta(weeks=1)
+    one_week_ago = datetime.now() - timedelta(weeks=2)
 
     # Format the date as 'DD-MMM-YYYY'
     since_date = one_week_ago.strftime('%d-%b-%Y')
