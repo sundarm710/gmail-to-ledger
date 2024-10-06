@@ -28,6 +28,8 @@ def convert_csv_to_ledger(csv_file, output_file):
         ledger_entry += f"    {to_account}    {amount}\n"
         ledger_entry += f"    {expense_account}"
 
+        print(ledger_entry)
+
         # Append the formatted entry to the list
         ledger_entries.append(ledger_entry)
 

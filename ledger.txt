@@ -1241,6 +1241,14 @@
     Expenses:Travel:Auto    ₹900.00
     Assets:Banking:SBI
 
+2024/09/13 Triund Trek all Expenses
+    Expenses:Travel:Trek    ₹2,000.00
+    Assets:Banking:SBI
+    
+2024/09/13 Teku Salary
+    Expenses:Home:Cook    ₹6,000.00
+    Assets:Banking:SBI
+
 2024/09/13 Type B Charger
     Expenses:Phone:Charger    ₹400.00
     Assets:Banking:SBI
@@ -1600,3 +1608,68 @@
 2024/10/03 Ratnadeep Shoppping
     Expenses:Food:Groceries    ₹2,276.00
     Assets:Banking:HDFC
+
+2024/10/04 Stuff
+    Expenses:Vice:Stuff    ₹2,800.00
+    Assets:Banking:HDFC
+
+2024/10/04 Hot Chips
+    Expenses:Food:Munchies    ₹130.00
+    Assets:Banking:HDFC
+
+2024/10/04 Pant Stitching
+    Expenses:SelfCare:Tailor    ₹50.00
+    Assets:Banking:HDFC
+
+2024/10/04 Vice
+    Expenses:Vice:C    ₹90.00
+    Assets:Banking:HDFC
+
+2024/10/04 Coffee
+    Expenses:Food:EatingOut    ₹26.00
+    Assets:Banking:HDFC
+
+2024/10/04 Vada
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
+2024/10/05 Electricity
+    Expenses:Home:Electricity    ₹874.00
+    Assets:Banking:HDFC
+
+2024/10/05 Credit Card
+    Liabilities:Credit:HDFCMoneyBack    ₹823.00
+    Assets:Banking:HDFC
+
+2024/10/05 Vice
+    Expenses:Vice:C    ₹56.00
+    Assets:Banking:HDFC
+
+2024/10/05 Vice
+    Expenses:Vice:C    ₹120.00
+    Assets:Banking:HDFC
+
+2024/10/05 Booze
+    Expenses:Food:Booze    ₹1,387.00
+    Assets:Banking:HDFC
+
+2024/10/05 Vegetables
+    Expenses:Food:Groceries    ₹20.00
+    Assets:Banking:HDFC
+
+2024/10/05 Vegetables
+    Expenses:Food:Groceries    ₹25.00
+    Assets:Banking:HDFC
+
+2024/10/05 Aatha Cab
+    Expenses:Travel:Cab    ₹280.00
+    Assets:Banking:HDFC
+
+2024/10/05 Credit Card
+    Liabilities:Credit:HDFCSwiggy    ₹3,005.00
+    Assets:Banking:HDFC
+
+2024/10/05 House of Commons
+    Expenses:Food:EatingOut    ₹1,315.00
+    Assets:Banking:HDFC
+
