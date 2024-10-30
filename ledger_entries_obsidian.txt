@@ -18,36 +18,36 @@
     Food:EatingOut    ₹1,247.00
     Assets:Banking:HDFC
 
-2024/06/14 Flavoured Milk
-    Food:EatingOut    ₹55.00
-    Assets:Banking:HDFC
-
 2024/06/14 Vice
     Misc:Entertainment:Vice    ₹20.00
     Assets:Banking:HDFC
 
-2024/06/15 Chennai Bike - to Medavakkam
-    Travel:Bike    ₹130.00
-    Assets:Banking:HDFC
-
-2024/06/15 A2B dinner with Adhu
-    Food:EatingOut    ₹179.00
+2024/06/14 Flavoured Milk
+    Food:EatingOut    ₹55.00
     Assets:Banking:HDFC
 
 2024/06/15 Auto - to Bus Stand
     Travel:Auto    ₹200.00
     Assets:Banking:HDFC
 
-2024/06/15 Coke - Maharaja Movie
-    Food:EatingOut    ₹390.00
-    Assets:Banking:HDFC
-
 2024/06/15 Lunch - with Adhu at Pind
     Food:EatingOut    ₹964.00
     Assets:Banking:HDFC
 
+2024/06/15 Coke - Maharaja Movie
+    Food:EatingOut    ₹390.00
+    Assets:Banking:HDFC
+
 2024/06/15 Books
     SelfCare:Books    ₹1,250.00
+    Assets:Banking:HDFC
+
+2024/06/15 A2B dinner with Adhu
+    Food:EatingOut    ₹179.00
+    Assets:Banking:HDFC
+
+2024/06/15 Chennai Bike - to Medavakkam
+    Travel:Bike    ₹130.00
     Assets:Banking:HDFC
 
 2024/06/16 Apple Subscription - to stop
@@ -70,24 +70,24 @@
     Misc:Entertainment:Vice    ₹45.00
     Assets:Banking:HDFC
 
-2024/06/17 Credit Card Payment
-    Liabilities:Credit:ICICI    ₹967.00
-    Assets:Banking:HDFC
-
 2024/06/17 Badam Milk
     Food:DuringTravel    ₹30.00
+    Assets:Banking:HDFC
+
+2024/06/17 Credit Card Payment
+    Liabilities:Credit:ICICI    ₹967.00
     Assets:Banking:HDFC
 
 2024/06/18 Obsidian
     Subscriptions    ₹417.92
     Liabilities:Credit Cards:HDFC
 
-2024/06/18 Ironing
-    SelfCare:Ironing    ₹120.00
-    Assets:Banking:HDFC
-
 2024/06/18 Vice
     Misc:Entertainment:Vice    ₹36.00
+    Assets:Banking:HDFC
+
+2024/06/18 Ironing
+    SelfCare:Ironing    ₹120.00
     Assets:Banking:HDFC
 
 2024/06/19 JioFiber - Setup
@@ -122,17 +122,17 @@
     Expenses:Travel:Auto    ₹179.00
     Assets:Banking:HDFC
 
-2024/06/21 Netflix
-    Expenses:Subscriptions    ₹649.00
-    Liabilities:Credit Cards:ICICI
+2024/06/21 Chocolates
+    Expenses:Food:Chocolates    ₹10.00
+    Assets:Banking:HDFC
 
 2024/06/21 Vice
     Expenses:Misc:Entertainment:Vice    ₹60.00
     Assets:Banking:HDFC
 
-2024/06/21 Chocolates
-    Expenses:Food:Chocolates    ₹10.00
-    Assets:Banking:HDFC
+2024/06/21 Netflix
+    Expenses:Subscriptions    ₹649.00
+    Liabilities:Credit Cards:ICICI
 
 2024/06/22 Bounty + Badam Milk
     Expenses:Food:DuringTravel    ₹175.00
@@ -178,6 +178,10 @@
     Expenses:Travel:Bus    ₹2,169.30
     Assets:Banking:HDFC
 
+2024/06/29 Badam Milk
+    Expenses:Food:DuringTravel    ₹50.00
+    Assets:Banking:HDFC
+
 2024/06/29 Auto - back home
     Expenses:Travel:Auto    ₹60.00
     Assets:Banking:HDFC
@@ -192,10 +196,6 @@
 
 2024/06/29 Kanth Gift
     Expenses:Gifts    ₹5,850.00
-    Assets:Banking:HDFC
-
-2024/06/29 Badam Milk
-    Expenses:Food:DuringTravel    ₹50.00
     Assets:Banking:HDFC
 
 2024/06/30 Tapri with Kanth
@@ -218,12 +218,12 @@
     Expenses:Food:EatingOut    ₹100.00
     Assets:Banking:HDFC
 
-2024/07/02 Teku Salary
-    Expenses:Home:Cook    ₹4,000.00
-    Assets:Banking:HDFC
-
 2024/07/02 Poha and Fruits
     Expenses:Food:Groceries    ₹198.00
+    Assets:Banking:HDFC
+
+2024/07/02 Teku Salary
+    Expenses:Home:Cook    ₹4,000.00
     Assets:Banking:HDFC
 
 2024/07/02 ThirdWave with Arghya
@@ -235,10 +235,6 @@
     Assets:Banking:SBI
 
 2024/07/03 Credit Card Payment
-    Liabilities:Credit:HDFCSwiggy     ₹8,777.00
-    Assets:Banking:HDFC
-
-2024/07/03 Credit Card Payment
     Liabilities:Credit:HDFCMoneyBack    ₹2,750.00
     Assets:Banking:HDFC
 
@@ -248,6 +244,10 @@
 
 2024/07/03 Ironing
     Expenses:SelfCare:Ironing    ₹80.00
+    Assets:Banking:HDFC
+
+2024/07/03 Credit Card Payment
+    Liabilities:Credit:HDFCSwiggy     ₹8,777.00
     Assets:Banking:HDFC
 
 2024/07/04 Maintenence
@@ -326,6 +326,10 @@
     Expenses:Food:Chocolates    ₹35.00
     Assets:Banking:HDFC
 
+2024/07/10 Corn
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
 2024/07/10 Vada
     Expenses:Food:EatingOut    ₹30.00
     Assets:Banking:HDFC
@@ -333,10 +337,6 @@
 2024/07/10 Corn
     Expenses:Food:EatingOut    ₹50.00
     Assets:Banking:HDFC
-
-2024/07/10 Home Loan
-    Expenses:Home:Loan    ₹105,779.00
-    Assets:Banking:SBI
 
 2024/07/10 Juice
     Expenses:Food:Juice    ₹40.00
@@ -346,9 +346,9 @@
     Expenses:SelfCare:Sports    ₹199.00
     Assets:Banking:HDFC
 
-2024/07/10 Corn
-    Expenses:Food:EatingOut    ₹20.00
-    Assets:Banking:HDFC
+2024/07/10 Home Loan
+    Expenses:Home:Loan    ₹105,779.00
+    Assets:Banking:SBI
 
 2024/07/11 Pullup bar
     Expenses:SelfCare:Sports    ₹1,399.00
@@ -382,12 +382,16 @@
     Expenses:Vice:C    ₹72.00
     Assets:Banking:HDFC
 
+2024/07/13 Ice Cream
+    Expenses:Food:IceCream    ₹50.00
+    Assets:Banking:HDFC
+
 2024/07/13 Barber
     Expenses:SelfCare:Barber    ₹400.00
     Assets:Banking:HDFC
 
-2024/07/13 Ice Cream
-    Expenses:Food:IceCream    ₹50.00
+2024/07/14 Vice
+    Expenses:Vice:C    ₹180.00
     Assets:Banking:HDFC
 
 2024/07/14 Flight to Dharamshala
@@ -400,10 +404,6 @@
 
 2024/07/14 Parking
     Expenses:Bike:Parking    ₹50.00
-    Assets:Banking:HDFC
-
-2024/07/14 Vice
-    Expenses:Vice:C    ₹180.00
     Assets:Banking:HDFC
 
 2024/07/15 Credit Card Payment
@@ -434,16 +434,16 @@
     Expenses:SelfCare:Medicines    ₹35.00
     Assets:Banking:HDFC
 
-2024/07/19 Munchies
-    Expenses:Enter:Munchies    ₹1,730.00
-    Assets:Banking:HDFC
-
 2024/07/19 Coffee at Dera Punjab
     Expenses:Food:EatingOut    ₹53.00
     Assets:Banking:HDFC
 
 2024/07/19 Stuff
     Expenses:Vice:Stuff    ₹2,800.00
+    Assets:Banking:HDFC
+
+2024/07/19 Munchies
+    Expenses:Enter:Munchies    ₹1,730.00
     Assets:Banking:HDFC
 
 2024/07/20 Umesh
@@ -458,28 +458,28 @@
     Expenses:Food:EatingOut    ₹179.00
     Assets:Banking:HDFC
 
-2024/07/22 Vada
-    Expenses:Food:EatingOut    ₹40.00
-    Assets:Banking:HDFC
-
 2024/07/22 Strepsils and Tablet for Cold
     Expenses:SelfCare:Medicines    ₹251.00
     Assets:Banking:HDFC
 
-2024/07/23 Idly Vada
-    Expenses:Food:EatingOut    ₹60.00
+2024/07/22 Vada
+    Expenses:Food:EatingOut    ₹40.00
     Assets:Banking:HDFC
 
 2024/07/23 Strepsils
     Expenses:SelfCare:Medicines    ₹38.00
     Assets:Banking:HDFC
 
-2024/07/24 Headspace
-    Expenses:Subscriptions:Headspace    ₹120.00
+2024/07/23 Idly Vada
+    Expenses:Food:EatingOut    ₹60.00
     Assets:Banking:HDFC
 
 2024/07/24 Juice
     Expenses:Food:Juice    ₹40.00
+    Assets:Banking:HDFC
+
+2024/07/24 Headspace
+    Expenses:Subscriptions:Headspace    ₹120.00
     Assets:Banking:HDFC
 
 2024/07/25 Dosa Vada
@@ -494,32 +494,36 @@
     Expenses:Food:Juice    ₹30.00
     Assets:Banking:HDFC
 
-2024/07/27 Juice
-    Expenses:Food:Juice    ₹120.00
-    Assets:Banking:HDFC
-
-2024/07/27 Bao Bao
-    Expenses:Food:EatingOut    ₹410.00
-    Assets:Banking:HDFC
-
-2024/07/27 Kadalai
-    Expenses:Food:EatingOut    ₹25.00
+2024/07/27 CycleWorkshop
+    Expenses:SelfImprovement:SocialEvent    ₹500.00
     Assets:Banking:HDFC
 
 2024/07/27 Grocers
     Expenses:Food:Groceries    ₹350.00
     Assets:Banking:HDFC
 
-2024/07/27 CycleWorkshop
-    Expenses:SelfImprovement:SocialEvent    ₹500.00
+2024/07/27 Kadalai
+    Expenses:Food:EatingOut    ₹25.00
     Assets:Banking:HDFC
 
 2024/07/27 Vice
     Expenses:Vice:C    ₹33.00
     Assets:Banking:HDFC
 
-2024/07/28 Barber
-    Expenses:SelfCare:Barber    ₹650.00
+2024/07/27 Bao Bao
+    Expenses:Food:EatingOut    ₹410.00
+    Assets:Banking:HDFC
+
+2024/07/27 Juice
+    Expenses:Food:Juice    ₹120.00
+    Assets:Banking:HDFC
+
+2024/07/28 Vice
+    Expenses:Vice:C    ₹40.00
+    Assets:Banking:HDFC
+
+2024/07/28 Ironing
+    Expenses:SelfCare:Ironing    ₹60.00
     Assets:Banking:HDFC
 
 2024/07/28 YouTube
@@ -530,12 +534,8 @@
     Expenses:Vice:C    ₹30.00
     Assets:Banking:HDFC
 
-2024/07/28 Ironing
-    Expenses:SelfCare:Ironing    ₹60.00
-    Assets:Banking:HDFC
-
-2024/07/28 Vice
-    Expenses:Vice:C    ₹40.00
+2024/07/28 Barber
+    Expenses:SelfCare:Barber    ₹650.00
     Assets:Banking:HDFC
 
 2024/07/29 Coffee at Dera Punjab
@@ -550,10 +550,6 @@
     Expenses:Food:Chocolates    ₹20.00
     Assets:Banking:HDFC
 
-2024/07/31 IncomeTax
-    Expenses:IncomeTax    ₹84,560.00
-    Assets:Banking:SBI
-
 2024/07/31 Coffee at Dera Punjab
     Expenses:Food:EatingOut    ₹26.00
     Assets:Banking:HDFC
@@ -562,28 +558,32 @@
     Assets:Banking:SBI    ₹80,000.00
     Assets:Banking:HDFC
 
-2024/08/01 Ironing
-    Expenses:SelfCare:Ironing    ₹48.00
-    Assets:Banking:HDFC
+2024/07/31 IncomeTax
+    Expenses:IncomeTax    ₹84,560.00
+    Assets:Banking:SBI
 
-2024/08/01 Coffee at Dera Punjab
-    Expenses:Food:EatingOut    ₹26.00
-    Assets:Banking:HDFC
-
-2024/08/01 Vape - myself and Gowtham
-    Expenses:Vice:Stuff    ₹4,800.00
-    Assets:Banking:HDFC
-
-2024/08/01 Ratnadeep Shoppping
-    Expenses:Food:Groceries    ₹35.00
+2024/08/01 Teku Salary
+    Expenses:Home:Cook    ₹6,000.00
     Assets:Banking:HDFC
 
 2024/08/01 Vice
     Expenses:Vice:C    ₹30.00
     Assets:Banking:HDFC
 
-2024/08/01 Teku Salary
-    Expenses:Home:Cook    ₹6,000.00
+2024/08/01 Ratnadeep Shoppping
+    Expenses:Food:Groceries    ₹35.00
+    Assets:Banking:HDFC
+
+2024/08/01 Coffee at Dera Punjab
+    Expenses:Food:EatingOut    ₹26.00
+    Assets:Banking:HDFC
+
+2024/08/01 Ironing
+    Expenses:SelfCare:Ironing    ₹48.00
+    Assets:Banking:HDFC
+
+2024/08/01 Vape - myself and Gowtham
+    Expenses:Vice:Stuff    ₹4,800.00
     Assets:Banking:HDFC
 
 2024/08/02 Zerodha Mandate
@@ -606,10 +606,6 @@
     Expenses:Food:DuringTravel    ₹32.00
     Assets:Banking:HDFC
 
-2024/08/04 Subscription
-    Expenses:Subscriptions:Spotify    ₹119.00
-    Liabilities:Credit Cards:ICICI
-
 2024/08/04 Smallcase subscription
     Expenses:Subscriptions:Smallcase    ₹5,900.00
     Assets:Banking:HDFC
@@ -622,20 +618,24 @@
     Expenses:Food:EatingOut    ₹60.00
     Assets:Banking:HDFC
 
-2024/08/05 Credit Card Payment
-    Liabilities:Credit:HDFCSwiggy    ₹3,071.00
-    Assets:Banking:HDFC
+2024/08/04 Subscription
+    Expenses:Subscriptions:Spotify    ₹119.00
+    Liabilities:Credit Cards:ICICI
 
-2024/08/05 Credit Card Payment
-    Liabilities:Credit:HDFCMoneyBack    ₹2,160.00
+2024/08/05 Chocolates
+    Expenses:Food:Chocolates    ₹20.00
     Assets:Banking:HDFC
 
 2024/08/05 Kadalai
     Expenses:Food:EatingOut    ₹20.00
     Assets:Banking:HDFC
 
-2024/08/05 Chocolates
-    Expenses:Food:Chocolates    ₹20.00
+2024/08/05 Credit Card Payment
+    Liabilities:Credit:HDFCSwiggy    ₹3,071.00
+    Assets:Banking:HDFC
+
+2024/08/05 Credit Card Payment
+    Liabilities:Credit:HDFCMoneyBack    ₹2,160.00
     Assets:Banking:HDFC
 
 2024/08/06 Ironing
@@ -650,24 +650,20 @@
     Expenses:Bike:Service    ₹2,000.00
     Assets:Banking:HDFC
 
-2024/08/07 Chocolates
-    Expenses:Food:Chocolates    ₹20.00
-    Assets:Banking:HDFC
-
-2024/08/07 Parotta
-    Expenses:Food:EatingOut    ₹50.00
+2024/08/07 Mango Lassi
+    Expenses:Food:EatingOut    ₹126.00
     Assets:Banking:HDFC
 
 2024/08/07 Maintenence
     Expenses:Home:Maintenence    ₹2,000.00
     Assets:Banking:HDFC
 
-2024/08/07 Mango Lassi
-    Expenses:Food:EatingOut    ₹126.00
+2024/08/07 Chocolates
+    Expenses:Food:Chocolates    ₹20.00
     Assets:Banking:HDFC
 
-2024/08/08 Lemon Tea
-    Expenses:Food:EatingOut    ₹12.00
+2024/08/07 Parotta
+    Expenses:Food:EatingOut    ₹50.00
     Assets:Banking:HDFC
 
 2024/08/08 Samosa
@@ -682,21 +678,25 @@
     Expenses:Food:EatingOut    ₹10.00
     Assets:Banking:HDFC
 
-2024/08/10 Home Loan
-    Expenses:Home:Loan    ₹105,779.00
-    Assets:Banking:SBI
-
-2024/08/10 Kadalai
-    Expenses:Food:EatingOut    ₹20.00
-    Assets:Banking:HDFC
-
-2024/08/10 Momo
-    Expenses:Food:EatingOut    ₹60.00
+2024/08/08 Lemon Tea
+    Expenses:Food:EatingOut    ₹12.00
     Assets:Banking:HDFC
 
 2024/08/10 Ratnadeep Shoppping
     Expenses:Food:Groceries    ₹1,765.56
     Liabilities:Credit:ICICIAmazonPay
+
+2024/08/10 Kadalai
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
+2024/08/10 Home Loan
+    Expenses:Home:Loan    ₹105,779.00
+    Assets:Banking:SBI
+
+2024/08/10 Momo
+    Expenses:Food:EatingOut    ₹60.00
+    Assets:Banking:HDFC
 
 2024/08/11 MeghnaFoods
     Expenses:Food:Groceries    ₹1,312.00
@@ -726,36 +726,36 @@
     Expenses:Food:IceCream    ₹80.00
     Assets:Banking:HDFC
 
-2024/08/16 Ironing
-    Expenses:SelfCare:Ironing    ₹84.00
-    Assets:Banking:HDFC
-
-2024/08/16 Workona
-    Expenses:Subscriptions:Workona    ₹756.14
-    Liabilities:Credit:HDFCMoneyBack
-
-2024/08/16 Pineapple Juice
-    Expenses:Food:Juice    ₹55.00
-    Assets:Banking:HDFC
-
-2024/08/16 Coffee
-    Expenses:Food:EatingOut    ₹53.00
+2024/08/16 Credit Card Payment
+    Liabilities:Credit:ICICIAmazonPay    ₹3,520.35
     Assets:Banking:HDFC
 
 2024/08/16 Chocolates
     Expenses:Food:Chocolates    ₹20.00
     Assets:Banking:HDFC
 
+2024/08/16 Coffee
+    Expenses:Food:EatingOut    ₹53.00
+    Assets:Banking:HDFC
+
 2024/08/16 Chikki
     Expenses:Food:EatingOut    ₹10.00
     Assets:Banking:HDFC
 
-2024/08/16 Credit Card Payment
-    Liabilities:Credit:ICICIAmazonPay    ₹3,520.35
+2024/08/16 Workona
+    Expenses:Subscriptions:Workona    ₹756.14
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/08/16 Ironing
+    Expenses:SelfCare:Ironing    ₹84.00
     Assets:Banking:HDFC
 
 2024/08/16 JioFiber
     Expenses:Subscriptions:Internet    ₹1,178.82
+    Assets:Banking:HDFC
+
+2024/08/16 Pineapple Juice
+    Expenses:Food:Juice    ₹55.00
     Assets:Banking:HDFC
 
 2024/08/17 Bhel at Dera Punjab
@@ -766,28 +766,28 @@
     Expenses:Food:EatingOut    ₹30.00
     Assets:Banking:HDFC
 
-2024/08/18 Writers Circle
-    Expenses:SelfImprovement:SocialEvent    ₹1,000.00
-    Assets:Banking:HDFC
-
-2024/08/18 Vice
-    Expenses:Vice:C    ₹40.00
-    Assets:Banking:HDFC
-
-2024/08/18 Groceries
-    Expenses:Food:Groceries    ₹900.00
+2024/08/18 Chicken Bowl
+    Expenses:Food:Swiggy    ₹390.00
     Liabilities:Credit:HDFCSwiggy
 
 2024/08/18 Mutton Biryani
     Expenses:Food:Swiggy    ₹390.00
     Liabilities:Credit:HDFCSwiggy
 
-2024/08/18 Chicken Bowl
-    Expenses:Food:Swiggy    ₹390.00
+2024/08/18 Groceries
+    Expenses:Food:Groceries    ₹900.00
     Liabilities:Credit:HDFCSwiggy
 
 2024/08/18 Gowdru Foods
     Expenses:Food:EatingOut    ₹165.00
+    Assets:Banking:HDFC
+
+2024/08/18 Writers Circle
+    Expenses:SelfImprovement:SocialEvent    ₹1,000.00
+    Assets:Banking:HDFC
+
+2024/08/18 Vice
+    Expenses:Vice:C    ₹40.00
     Assets:Banking:HDFC
 
 2024/08/19 Something
@@ -802,16 +802,16 @@
     Expenses:Food:Chocolates    ₹20.00
     Assets:Banking:HDFC
 
+2024/08/20 Chocolates
+    Expenses:Food:Chocolates    ₹20.00
+    Assets:Banking:HDFC
+
 2024/08/20 Something
     Expenses:Food:EatingOut    ₹25.00
     Assets:Banking:HDFC
 
 2024/08/20 Something
     Expenses:Food:EatingOut    ₹20.00
-    Assets:Banking:HDFC
-
-2024/08/20 Chocolates
-    Expenses:Food:Chocolates    ₹20.00
     Assets:Banking:HDFC
 
 2024/08/21 Coffee at Dera Punjab
@@ -835,10 +835,6 @@
     Assets:Banking:HDFC
 
 2024/08/23 Vice
-    Expenses:Vice:C    ₹104.00
-    Assets:Banking:HDFC
-
-2024/08/23 Vice
     Expenses:Vice:C    ₹46.00
     Assets:Banking:HDFC
 
@@ -850,32 +846,36 @@
     Expenses:Food:EatingOut    ₹40.00
     Assets:Banking:HDFC
 
-2024/08/24 Headspace
-    Expenses:Subscriptions:Headspace    ₹120.00
+2024/08/23 Vice
+    Expenses:Vice:C    ₹104.00
     Assets:Banking:HDFC
 
-2024/08/24 Shaap Chattichooru
-    Expenses:Food:EatingOut    ₹260.00
-    Assets:Banking:HDFC
-
-2024/08/24 Vice
-    Expenses:Vice:C    ₹40.00
-    Assets:Banking:HDFC
-
-2024/08/24 Barber
-    Expenses:SelfCare:Barber    ₹650.00
-    Assets:Banking:HDFC
-
-2024/08/24 Frozen Milk
-    Expenses:Food:EatingOut    ₹188.00
+2024/08/24 Madhura Bar
+    Expenses:Food:EatingOut    ₹1,000.00
     Assets:Banking:HDFC
 
 2024/08/24 Vice
     Expenses:Vice:C    ₹45.00
     Assets:Banking:HDFC
 
-2024/08/24 Madhura Bar
-    Expenses:Food:EatingOut    ₹1,000.00
+2024/08/24 Frozen Milk
+    Expenses:Food:EatingOut    ₹188.00
+    Assets:Banking:HDFC
+
+2024/08/24 Barber
+    Expenses:SelfCare:Barber    ₹650.00
+    Assets:Banking:HDFC
+
+2024/08/24 Shaap Chattichooru
+    Expenses:Food:EatingOut    ₹260.00
+    Assets:Banking:HDFC
+
+2024/08/24 Headspace
+    Expenses:Subscriptions:Headspace    ₹120.00
+    Assets:Banking:HDFC
+
+2024/08/24 Vice
+    Expenses:Vice:C    ₹40.00
     Assets:Banking:HDFC
 
 2024/08/25 Football
@@ -890,12 +890,12 @@
     Expenses:Food:EatingOut    ₹2,491.00
     Liabilities:Credit:ICICIAmazonPay
 
-2024/08/25 Cake
-    Expenses:Food:EatingOut    ₹30.00
-    Assets:Banking:HDFC
-
 2024/08/25 Vice
     Expenses:Vice:C    ₹20.00
+    Assets:Banking:HDFC
+
+2024/08/25 Cake
+    Expenses:Food:EatingOut    ₹30.00
     Assets:Banking:HDFC
 
 2024/08/25 Chocobar
@@ -914,16 +914,16 @@
     Expenses:SelfCare:Ironing    ₹84.00
     Assets:Banking:HDFC
 
-2024/08/27 Something
-    Expenses:Food:EatingOut    ₹63.00
-    Assets:Banking:HDFC
-
 2024/08/27 Vice
     Expenses:Vice:C    ₹23.00
     Assets:Banking:HDFC
 
 2024/08/27 Puffs
     Expenses:Food:EatingOut    ₹25.00
+    Assets:Banking:HDFC
+
+2024/08/27 Something
+    Expenses:Food:EatingOut    ₹63.00
     Assets:Banking:HDFC
 
 2024/08/28 YouTube
@@ -938,16 +938,20 @@
     Expenses:Vice:C    ₹60.00
     Assets:Banking:HDFC
 
-2024/08/29 Vice
-    Expenses:Vice:C    ₹78.00
-    Assets:Banking:HDFC
-
 2024/08/29 Chocolates
     Expenses:Food:Chocolates    ₹10.00
     Assets:Banking:HDFC
 
 2024/08/29 Coffee at Dera Punjab
     Expenses:Food:EatingOut    ₹26.00
+    Assets:Banking:HDFC
+
+2024/08/29 Vice
+    Expenses:Vice:C    ₹78.00
+    Assets:Banking:HDFC
+
+2024/08/30 Lock
+    Expenses:Travel:Lock    ₹60.00
     Assets:Banking:HDFC
 
 2024/08/30 Coffee at Dera Punjab
@@ -958,12 +962,12 @@
     Expenses:Vice:C    ₹40.00
     Assets:Banking:HDFC
 
-2024/08/30 Lock
-    Expenses:Travel:Lock    ₹60.00
+2024/08/31 Kanth Roadside
+    Expenses:Food:EatingOut    ₹80.00
     Assets:Banking:HDFC
 
 2024/08/31 Vice
-    Expenses:Vice:C    ₹18.00
+    Expenses:Vice:C    ₹50.00
     Assets:Banking:HDFC
 
 2024/08/31 Delhi Metro
@@ -974,20 +978,16 @@
     Expenses:Food:EatingOut    ₹3,163.00
     Liabilities:Credit:HDFCMoneyBack
 
-2024/08/31 Kanth Roadside
-    Expenses:Food:EatingOut    ₹80.00
-    Assets:Banking:HDFC
-
-2024/08/31 Something
-    Expenses:Food:DuringTravel    ₹15.00
-    Assets:Banking:HDFC
-
 2024/08/31 Vice
-    Expenses:Vice:C    ₹50.00
+    Expenses:Vice:C    ₹18.00
     Assets:Banking:HDFC
 
 2024/08/31 Indigo flight to Delhi
     Expenses:Travel:Flight    ₹8,124.00
+    Assets:Banking:HDFC
+
+2024/08/31 Bus to Dharamshala
+    Expenses:Travel:Bus    ₹697.25
     Assets:Banking:HDFC
 
 2024/08/31 KFC airport
@@ -1002,16 +1002,12 @@
     Expenses:Home:Maintenence    ₹3,000.00
     Assets:Banking:HDFC
 
-2024/08/31 Bus to Dharamshala
-    Expenses:Travel:Bus    ₹697.25
-    Assets:Banking:HDFC
-
 2024/08/31 CreditCard
     Liabilities:Credit:HDFCMoneyBack    ₹11,509.00
     Assets:Banking:HDFC
 
-2024/09/01 Vice
-    Expenses:Vice:C    ₹10.00
+2024/08/31 Something
+    Expenses:Food:DuringTravel    ₹15.00
     Assets:Banking:HDFC
 
 2024/09/01 Vice
@@ -1022,8 +1018,16 @@
     Expenses:Vice:C    ₹20.00
     Assets:Banking:HDFC
 
+2024/09/01 Vice
+    Expenses:Vice:C    ₹10.00
+    Assets:Banking:HDFC
+
 2024/09/10 Loan
     Expenses:Home:Loan    ₹105,779.00
+    Assets:Banking:SBI
+
+2024/09/13 Tea at Dharamshala
+    Expenses:Food:EatingOut    ₹30.00
     Assets:Banking:SBI
 
 2024/09/13 Zostel + Food
@@ -1034,16 +1038,16 @@
     Expenses:Vice:C    ₹110.00
     Assets:Banking:SBI
 
-2024/09/13 Tea at Dharamshala
-    Expenses:Food:EatingOut    ₹30.00
-    Assets:Banking:SBI
-
-2024/09/13 Dharamkot to Dharamshala Auto
-    Expenses:Travel:Auto    ₹300.00
-    Assets:Banking:SBI
-
 2024/09/13 Type B Charger
     Expenses:Phone:Charger    ₹400.00
+    Assets:Banking:SBI
+
+2024/09/13 Teku Salary
+    Expenses:Home:Cook    ₹6,000.00
+    Assets:Banking:SBI
+
+2024/09/13 Vice
+    Expenses:Vice:C    ₹60.00
     Assets:Banking:SBI
 
 2024/09/13 Lhasa Tibetan Kitchen
@@ -1054,20 +1058,12 @@
     Expenses:Travel:Auto    ₹900.00
     Assets:Banking:SBI
 
-2024/09/13 Teku Salary
-    Expenses:Home:Cook    ₹6,000.00
-    Assets:Banking:SBI
-
 2024/09/13 Triund Trek all Expenses
     Expenses:Travel:Trek    ₹2,000.00
     Assets:Banking:SBI
 
-2024/09/13 Vice
-    Expenses:Vice:C    ₹60.00
-    Assets:Banking:SBI
-
-2024/09/14 Tea at Bir
-    Expenses:Food:EatingOut    ₹40.00
+2024/09/13 Dharamkot to Dharamshala Auto
+    Expenses:Travel:Auto    ₹300.00
     Assets:Banking:SBI
 
 2024/09/14 Crocs
@@ -1078,8 +1074,8 @@
     Expenses:Travel:Bus    ₹944.00
     Assets:Banking:SBI
 
-2024/09/14 Bir C
-    Expenses:Vice:C    ₹100.00
+2024/09/14 Tea at Bir
+    Expenses:Food:EatingOut    ₹40.00
     Assets:Banking:SBI
 
 2024/09/14 Bir Rental Bike
@@ -1090,8 +1086,16 @@
     Expenses:Food:Chocolates    ₹170.00
     Assets:Banking:SBI
 
+2024/09/14 Bir C
+    Expenses:Vice:C    ₹100.00
+    Assets:Banking:SBI
+
 2024/09/14 Petrol for Rental Scooty
     Expenses:Bike:Fuel    ₹200.00
+    Assets:Banking:SBI
+
+2024/09/15 Ice Cream Delhi
+    Expenses:Food:IceCream    ₹10.00
     Assets:Banking:SBI
 
 2024/09/15 Subway Delhi
@@ -1106,20 +1110,8 @@
     Expenses:Travel:Metro    ₹30.00
     Assets:Banking:SBI
 
-2024/09/15 Ice Cream Delhi
-    Expenses:Food:IceCream    ₹10.00
-    Assets:Banking:SBI
-
 2024/09/15 Miss Margharita Delhi
     Expenses:Food:EatingOut    ₹2,600.00
-    Assets:Banking:SBI
-
-2024/09/15 Barber + Limca
-    Expenses:Food:EatingOut    ₹78.00
-    Assets:Banking:SBI
-
-2024/09/15 Vice
-    Expenses:Vice:C    ₹15.00
     Assets:Banking:SBI
 
 2024/09/15 Delhi to Dharamshala
@@ -1130,6 +1122,10 @@
     Expenses:Food:IceCream    ₹25.00
     Assets:Banking:SBI
 
+2024/09/15 Vice
+    Expenses:Vice:C    ₹15.00
+    Assets:Banking:SBI
+
 2024/09/15 Spa
     Expenses:Entertainment:DelhiSpa    ₹3,200.00
     Assets:Banking:SBI
@@ -1138,12 +1134,8 @@
     Expenses:Food:EatingOut    ₹100.00
     Assets:Banking:SBI
 
-2024/09/16 Airport Nandini Cafe
-    Expenses:Food:EatingOut    ₹40.00
-    Assets:Banking:SBI
-
-2024/09/16 Bus to Domlur
-    Expenses:Travel:Bus    ₹260.00
+2024/09/15 Barber + Limca
+    Expenses:Food:EatingOut    ₹78.00
     Assets:Banking:SBI
 
 2024/09/16 Parotta
@@ -1154,6 +1146,14 @@
     Expenses:Food:EatingOut    ₹60.00
     Assets:Banking:SBI
 
+2024/09/16 Airport Nandini Cafe
+    Expenses:Food:EatingOut    ₹40.00
+    Assets:Banking:SBI
+
+2024/09/16 Bus to Domlur
+    Expenses:Travel:Bus    ₹260.00
+    Assets:Banking:SBI
+
 2024/09/17 Donne Biryani
     Expenses:Food:EatingOut    ₹239.00
     Assets:Banking:SBI
@@ -1162,112 +1162,108 @@
     Expenses:Food:EatingOut    ₹53.00
     Assets:Banking:SBI
 
-2024/09/19 Lemon Tea
-    Expenses:Food:EatingOut    ₹27.00
-    Assets:Banking:SBI
-
-2024/09/19 Idly Vada
-    Expenses:Food:EatingOut    ₹120.00
-    Assets:Banking:SBI
-
-2024/09/19 Samosa
-    Expenses:Food:EatingOut    ₹24.00
+2024/09/19 1mg parking
+    Expenses:Bike:Parking    ₹50.00
     Assets:Banking:SBI
 
 2024/09/19 Idly Kadai
     Expenses:Food:EatingOut    ₹80.00
     Assets:Banking:SBI
 
-2024/09/19 1mg parking
-    Expenses:Bike:Parking    ₹50.00
-    Assets:Banking:SBI
-
 2024/09/19 Coffee at A2B
     Expenses:Food:EatingOut    ₹76.00
     Assets:Banking:SBI
 
-2024/09/20 Pineapple Juice and Ice Cream
-    Expenses:Food:EatingOut    ₹80.00
-    Assets:Banking:HDFC
-
-2024/09/20 Fuel
-    Expenses:Bike:Fuel    ₹1,072.00
+2024/09/19 Samosa
+    Expenses:Food:EatingOut    ₹24.00
     Assets:Banking:SBI
 
-2024/09/20 Bakery
-    Expenses:Food:EatingOut    ₹65.00
+2024/09/19 Idly Vada
+    Expenses:Food:EatingOut    ₹120.00
     Assets:Banking:SBI
 
-2024/09/20 Lunch IDC
-    Expenses:Food:EatingOut    ₹170.00
-    Assets:Banking:SBI
-
-2024/09/20 JNC Fest
-    Expenses:Entertainment:Fest    ₹1,300.00
+2024/09/19 Lemon Tea
+    Expenses:Food:EatingOut    ₹27.00
     Assets:Banking:SBI
 
 2024/09/20 Phone Repair
     Expenses:Phone:Service    ₹10,000.00
     Assets:Banking:SBI
 
-2024/09/21 Bobs with Friends
-    Expenses:Food:EatingOut    ₹4,359.00
-    Assets:Banking:HDFC
+2024/09/20 JNC Fest
+    Expenses:Entertainment:Fest    ₹1,300.00
+    Assets:Banking:SBI
 
-2024/09/21 Noodles
-    Expenses:Food:EatingOut    ₹50.00
-    Assets:Banking:HDFC
+2024/09/20 Lunch IDC
+    Expenses:Food:EatingOut    ₹170.00
+    Assets:Banking:SBI
 
-2024/09/21 Lemon Soda
-    Expenses:Food:EatingOut    ₹30.00
-    Assets:Banking:HDFC
+2024/09/20 Bakery
+    Expenses:Food:EatingOut    ₹65.00
+    Assets:Banking:SBI
 
-2024/09/21 Vice
-    Expenses:Vice:C    ₹30.00
-    Assets:Banking:HDFC
+2024/09/20 Fuel
+    Expenses:Bike:Fuel    ₹1,072.00
+    Assets:Banking:SBI
 
-2024/09/21 Vice
-    Expenses:Vice:C    ₹340.00
+2024/09/20 Pineapple Juice and Ice Cream
+    Expenses:Food:EatingOut    ₹80.00
     Assets:Banking:HDFC
 
 2024/09/21 Badam Milk
     Expenses:Food:EatingOut    ₹25.00
     Assets:Banking:HDFC
 
+2024/09/21 Vice
+    Expenses:Vice:C    ₹340.00
+    Assets:Banking:HDFC
+
 2024/09/21 Lemon Tea
     Expenses:Food:EatingOut    ₹22.00
     Assets:Banking:HDFC
 
-2024/09/22 Bus to Coimbatore
-    Expenses:Travel:Bus    ₹849.00
+2024/09/21 Noodles
+    Expenses:Food:EatingOut    ₹50.00
     Assets:Banking:HDFC
 
-2024/09/22 Coffee with Kanth
-    Expenses:Food:EatingOut    ₹70.00
+2024/09/21 Vice
+    Expenses:Vice:C    ₹30.00
     Assets:Banking:HDFC
 
-2024/09/22 Auto
-    Expenses:Travel:Auto    ₹150.00
+2024/09/21 Lemon Soda
+    Expenses:Food:EatingOut    ₹30.00
     Assets:Banking:HDFC
 
-2024/09/22 Tea
-    Expenses:Food:DuringTravel    ₹10.00
-    Assets:Banking:HDFC
-
-2024/09/22 Chikki
-    Expenses:Food:DuringTravel    ₹30.00
+2024/09/21 Bobs with Friends
+    Expenses:Food:EatingOut    ₹4,359.00
     Assets:Banking:HDFC
 
 2024/09/22 Banana
     Expenses:Food:DuringTravel    ₹14.00
     Assets:Banking:HDFC
 
+2024/09/22 Chikki
+    Expenses:Food:DuringTravel    ₹30.00
+    Assets:Banking:HDFC
+
 2024/09/22 Auto
     Expenses:Travel:Auto    ₹150.00
     Assets:Banking:HDFC
 
-2024/09/23 Boost
-    Expenses:Food:DuringTravel    ₹40.00
+2024/09/22 Auto
+    Expenses:Travel:Auto    ₹150.00
+    Assets:Banking:HDFC
+
+2024/09/22 Coffee with Kanth
+    Expenses:Food:EatingOut    ₹70.00
+    Assets:Banking:HDFC
+
+2024/09/22 Tea
+    Expenses:Food:DuringTravel    ₹10.00
+    Assets:Banking:HDFC
+
+2024/09/22 Bus to Coimbatore
+    Expenses:Travel:Bus    ₹849.00
     Assets:Banking:HDFC
 
 2024/09/23 Samosa
@@ -1280,6 +1276,10 @@
 
 2024/09/23 Zerodha Brokerage
     Assets:Zerodha:Funds    ₹2,000.00
+    Assets:Banking:HDFC
+
+2024/09/23 Boost
+    Expenses:Food:DuringTravel    ₹40.00
     Assets:Banking:HDFC
 
 2024/09/24 Headspace
@@ -1302,14 +1302,6 @@
     Expenses:Food:EatingOut    ₹135.00
     Assets:Banking:HDFC
 
-2024/09/28 Pizza
-    Expenses:Food:Swiggy    ₹678.00
-    Liabilities:Credit:HDFCSwiggy
-
-2024/09/28 YouTube
-    Expenses:Subscriptions:YouTube    ₹2.00
-    Assets:Banking:HDFC
-
 2024/09/28 Bus
     Expenses:Travel:Bus    ₹735.00
     Assets:Banking:HDFC
@@ -1318,20 +1310,20 @@
     Expenses:Food:EatingOut    ₹90.00
     Assets:Banking:HDFC
 
-2024/09/29 Snacks during travel
-    Expenses:Food:DuringTravel    ₹20.00
+2024/09/28 Pizza
+    Expenses:Food:Swiggy    ₹678.00
+    Liabilities:Credit:HDFCSwiggy
+
+2024/09/28 YouTube
+    Expenses:Subscriptions:YouTube    ₹2.00
     Assets:Banking:HDFC
 
 2024/09/29 Snacks during travel
     Expenses:Food:DuringTravel    ₹20.00
     Assets:Banking:HDFC
 
-2024/09/30 Vegetables
-    Expenses:Food:Groceries    ₹280.00
-    Assets:Banking:HDFC
-
-2024/09/30 Coffee
-    Expenses:Food:EatingOut    ₹36.00
+2024/09/29 Snacks during travel
+    Expenses:Food:DuringTravel    ₹20.00
     Assets:Banking:HDFC
 
 2024/09/30 Coffee
@@ -1343,8 +1335,20 @@
     Assets:Banking:HDFC
 
 2024/09/30 Coffee
+    Expenses:Food:EatingOut    ₹36.00
+    Assets:Banking:HDFC
+
+2024/09/30 Vegetables
+    Expenses:Food:Groceries    ₹280.00
+    Assets:Banking:HDFC
+
+2024/09/30 Coffee
     Expenses:Food:EatingOut    ₹96.00
     Assets:Banking:HDFC
+
+2024/10/01 Protein Powder
+    Expenses:SelfCare:Supplements    ₹3,775.00
+    Liabilities:Credit:ICICIAmazonPay
 
 2024/10/01 Vegetables
     Expenses:Food:Groceries    ₹50.00
@@ -1370,40 +1374,36 @@
     Expenses:Food:Groceries    ₹123.00
     Assets:Banking:HDFC
 
-2024/10/01 Protein Powder
-    Expenses:SelfCare:Supplements    ₹3,775.00
-    Liabilities:Credit:ICICIAmazonPay
-
 2024/10/02 IKEA
-    Expenses:Home:Furniture    ₹149.00
+    Expenses:Home:Furniture    ₹2,659.00
     Assets:Banking:HDFC
 
 2024/10/02 IKEA
-    Expenses:Home:Furniture    ₹2,659.00
+    Expenses:Home:Furniture    ₹149.00
     Assets:Banking:HDFC
 
 2024/10/02 Metro
     Expenses:Travel:Metro    ₹52.00
     Assets:Banking:HDFC
 
-2024/10/02 Auto
-    Expenses:Travel:Auto    ₹50.00
+2024/10/02 IKEA Food
+    Expenses:Food:EatingOut    ₹1,480.00
     Assets:Banking:HDFC
 
 2024/10/02 Auto
     Expenses:Travel:Auto    ₹250.00
     Assets:Banking:HDFC
 
-2024/10/02 Vice
-    Expenses:Vice:C    ₹54.00
-    Assets:Banking:HDFC
-
 2024/10/02 Metro
     Expenses:Travel:Metro    ₹55.00
     Assets:Banking:HDFC
 
-2024/10/02 IKEA Food
-    Expenses:Food:EatingOut    ₹1,480.00
+2024/10/02 Auto
+    Expenses:Travel:Auto    ₹50.00
+    Assets:Banking:HDFC
+
+2024/10/02 Vice
+    Expenses:Vice:C    ₹54.00
     Assets:Banking:HDFC
 
 2024/10/03 Zerodha Mandate
@@ -1426,16 +1426,8 @@
     Expenses:Food:Groceries    ₹2,276.00
     Assets:Banking:HDFC
 
-2024/10/04 Pant Stitching
-    Expenses:SelfCare:Tailor    ₹50.00
-    Assets:Banking:HDFC
-
-2024/10/04 Hot Chips
-    Expenses:Food:Munchies    ₹130.00
-    Assets:Banking:HDFC
-
-2024/10/04 Stuff
-    Expenses:Vice:Stuff    ₹2,800.00
+2024/10/04 Coffee
+    Expenses:Food:EatingOut    ₹26.00
     Assets:Banking:HDFC
 
 2024/10/04 Vice
@@ -1446,8 +1438,16 @@
     Expenses:Food:EatingOut    ₹20.00
     Assets:Banking:HDFC
 
-2024/10/04 Coffee
-    Expenses:Food:EatingOut    ₹26.00
+2024/10/04 Hot Chips
+    Expenses:Food:Munchies    ₹130.00
+    Assets:Banking:HDFC
+
+2024/10/04 Pant Stitching
+    Expenses:SelfCare:Tailor    ₹50.00
+    Assets:Banking:HDFC
+
+2024/10/04 Stuff
+    Expenses:Vice:Stuff    ₹2,800.00
     Assets:Banking:HDFC
 
 2024/10/05 House of Commons
@@ -1494,24 +1494,28 @@
     Expenses:Food:Groceries    ₹288.00
     Assets:Banking:HDFC
 
-2024/10/07 Lemon Tea
-    Expenses:Food:EatingOut    ₹20.00
-    Assets:Banking:HDFC
-
 2024/10/07 Vice
     Expenses:Vice:C    ₹8.00
+    Assets:Banking:HDFC
+
+2024/10/07 Lemon Tea
+    Expenses:Food:EatingOut    ₹20.00
     Assets:Banking:HDFC
 
 2024/10/07 Vice
     Expenses:Vice:C    ₹72.00
     Assets:Banking:HDFC
 
-2024/10/07 Cook Salary
-    Expenses:Food:Cook    ₹10,000.00
-    Assets:Banking:HDFC
-
 2024/10/07 Coffee
     Expenses:Food:EatingOut    ₹26.00
+    Assets:Banking:HDFC
+
+2024/10/07 Cook Salary
+    Expenses:Home:Cook    ₹10,000.00
+    Assets:Banking:HDFC
+
+2024/10/08 Maintenance
+    Expenses:Home:Maintenance    ₹3,000.00
     Assets:Banking:HDFC
 
 2024/10/08 Ironing
@@ -1526,10 +1530,6 @@
     Expenses:Vice:C    ₹102.00
     Assets:Banking:HDFC
 
-2024/10/08 Maintenance
-    Expenses:Home:Maintenance    ₹3,000.00
-    Assets:Banking:HDFC
-
 2024/10/09 Bobs share
     Expenses:Food:EatingOut    ₹292.00
     Assets:Banking:HDFC
@@ -1540,10 +1540,6 @@
 
 2024/10/09 Rajdhani Dinner share
     Expenses:Food:EatingOut    ₹700.00
-    Assets:Banking:HDFC
-
-2024/10/10 Vice
-    Expenses:Vice:C    ₹78.00
     Assets:Banking:HDFC
 
 2024/10/10 Cake near Futane House
@@ -1558,24 +1554,28 @@
     Expenses:Food:EatingOut    ₹120.00
     Assets:Banking:HDFC
 
-2024/10/10 Umesh
-    Expenses:Food:EatingOut    ₹130.00
-    Assets:Banking:HDFC
-
 2024/10/10 Vice
-    Expenses:Vice:C    ₹46.00
-    Assets:Banking:HDFC
-
-2024/10/10 Bank Transfer
-    Assets:Banking:SBI    ₹60,000.00
+    Expenses:Vice:C    ₹78.00
     Assets:Banking:HDFC
 
 2024/10/10 Loan
     Expenses:Home:Loan    ₹105,779.00
     Assets:Banking:SBI
 
+2024/10/10 Vice
+    Expenses:Vice:C    ₹46.00
+    Assets:Banking:HDFC
+
 2024/10/10 Coffee
     Expenses:Food:EatingOut    ₹52.00
+    Assets:Banking:HDFC
+
+2024/10/10 Bank Transfer
+    Assets:Banking:SBI    ₹60,000.00
+    Assets:Banking:HDFC
+
+2024/10/10 Umesh
+    Expenses:Food:EatingOut    ₹130.00
     Assets:Banking:HDFC
 
 2024/10/11 Coffee
@@ -1615,11 +1615,11 @@
     Assets:Banking:HDFC
 
 2024/10/13 Vice
-    Expenses:Vice:C    ₹118.00
+    Expenses:Vice:C    ₹36.00
     Assets:Banking:HDFC
 
 2024/10/13 Vice
-    Expenses:Vice:C    ₹36.00
+    Expenses:Vice:C    ₹118.00
     Assets:Banking:HDFC
 
 2024/10/13 Ice Cream
@@ -1670,12 +1670,12 @@
     Expenses:Vice:C    ₹84.00
     Assets:Banking:HDFC
 
-2024/10/16 Vice - MH
-    Expenses:Vice:C    ₹90.00
-    Assets:Banking:HDFC
-
 2024/10/16 Jio
     Expenses:Subscriptions:Internet    ₹1,178.82
+    Assets:Banking:HDFC
+
+2024/10/16 Vice - MH
+    Expenses:Vice:C    ₹90.00
     Assets:Banking:HDFC
 
 2024/10/17 Vice
@@ -1698,12 +1698,12 @@
     Expenses:Food:EatingOut    ₹777.00
     Assets:Banking:HDFC
 
-2024/10/18 Coffee - Royal Brothers
-    Expenses:Food:EatingOut    ₹35.00
-    Assets:Banking:HDFC
-
 2024/10/18 Vice - Royal Brothers
     Expenses:Vice:C    ₹108.00
+    Assets:Banking:HDFC
+
+2024/10/18 Coffee - Royal Brothers
+    Expenses:Food:EatingOut    ₹35.00
     Assets:Banking:HDFC
 
 2024/10/18 Coffee - Chai Days
@@ -1750,11 +1750,63 @@
     Expenses:Food:Groceries    ₹213.00
     Assets:Banking:HDFC
 
+2024/10/22 Vice - Corner Shop
+    Expenses:Vice:C    ₹102.00
+    Assets:Banking:HDFC
+
 2024/10/22 Puff - Bakery Near Temple
     Expenses:Food:EatingOut    ₹18.00
     Assets:Banking:HDFC
 
-2024/10/22 Vice - Corner Shop
-    Expenses:Vice:C    ₹102.00
+2024/10/23 Sofa
+    Expenses:Home:Furniture    ₹29,000.00
+    Assets:Banking:HDFC
+
+2024/10/23 Vice - near barber shop
+    Expenses:Vice:C    ₹84.00
+    Assets:Banking:HDFC
+
+2024/10/24 Vice - Strawberry Shop
+    Expenses:Vice:C    ₹95.00
+    Assets:Banking:HDFC
+
+2024/10/24 Vegetables
+    Expenses:Food:Groceries    ₹70.00
+    Assets:Banking:HDFC
+
+2024/10/24 Bus to Coimbatore
+    Expenses:Travel:Bus    ₹735.00
+    Assets:Banking:HDFC
+
+2024/10/25 Coffee - Chai Days
+    Expenses:Food:EatingOut    ₹213.00
+    Assets:Banking:HDFC
+
+2024/10/25 Vice - Strawberry Shop
+    Expenses:Vice:C    ₹95.00
+    Assets:Banking:HDFC
+
+2024/10/25 Umesh
+    Expenses:Food:EatingOut    ₹90.00
+    Assets:Banking:HDFC
+
+2024/10/25 Vice
+    Expenses:Vice:C    ₹90.00
+    Assets:Banking:HDFC
+
+2024/10/26 Vice
+    Expenses:Vice:C    ₹95.00
+    Assets:Banking:HDFC
+
+2024/10/27 Dosa
+    Expenses:Food:DuringTravel    ₹84.00
+    Assets:Banking:HDFC
+
+2024/10/27 Auto
+    Expenses:Travel:Auto    ₹130.00
+    Assets:Banking:HDFC
+
+2024/10/27 Auto
+    Expenses:Travel:Auto    ₹200.00
     Assets:Banking:HDFC
 

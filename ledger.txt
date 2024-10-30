@@ -1953,3 +1953,56 @@
 2024/10/22 Vice - Corner Shop
     Expenses:Vice:C    ₹102.00
     Assets:Banking:HDFC
+
+2024/10/23 Sofa
+    Expenses:Home:Furniture    ₹29,000.00
+    Assets:Banking:HDFC
+
+2024/10/23 Vice - near barber shop
+    Expenses:Vice:C    ₹84.00
+    Assets:Banking:HDFC
+
+2024/10/24 Vice - Strawberry Shop
+    Expenses:Vice:C    ₹95.00
+    Assets:Banking:HDFC
+
+2024/10/24 Vegetables
+    Expenses:Food:Groceries    ₹70.00
+    Assets:Banking:HDFC
+
+2024/10/24 Bus to Coimbatore
+    Expenses:Travel:Bus    ₹735.00
+    Assets:Banking:HDFC
+
+2024/10/25 Coffee - Chai Days
+    Expenses:Food:EatingOut    ₹213.00
+    Assets:Banking:HDFC
+
+2024/10/25 Vice - Strawberry Shop
+    Expenses:Vice:C    ₹95.00
+    Assets:Banking:HDFC
+
+2024/10/25 Umesh
+    Expenses:Food:EatingOut    ₹90.00
+    Assets:Banking:HDFC
+
+2024/10/25 Vice
+    Expenses:Vice:C    ₹90.00
+    Assets:Banking:HDFC
+
+2024/10/26 Vice
+    Expenses:Vice:C    ₹95.00
+    Assets:Banking:HDFC
+
+2024/10/27 Dosa
+    Expenses:Food:DuringTravel    ₹84.00
+    Assets:Banking:HDFC
+
+2024/10/27 Auto
+    Expenses:Travel:Auto    ₹130.00
+    Assets:Banking:HDFC
+
+2024/10/27 Auto
+    Expenses:Travel:Auto    ₹200.00
+    Assets:Banking:HDFC
+
