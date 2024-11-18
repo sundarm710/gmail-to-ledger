@@ -1678,7 +1678,7 @@
     Assets:Banking:HDFC
 
 2024/10/07 Cook Salary
-    Expenses:Food:Cook    ₹10,000.00
+    Expenses:Home:Cook    ₹10,000.00
     Assets:Banking:HDFC
 
 2024/10/07 Vice
@@ -2004,5 +2004,417 @@
 
 2024/10/27 Auto
     Expenses:Travel:Auto    ₹200.00
+    Assets:Banking:HDFC
+
+2024/10/28 YouTube
+    Expenses:Subscriptions:YouTube    ₹149.00
+    Assets:Banking:HDFC
+
+2024/10/29 Insurance
+    Expenses:SelfCare:Insurance    ₹10,753.08
+    Assets:Banking:HDFC
+
+2024/10/29 Hotstar
+    Expenses:Subscriptions:Hotstar    ₹1,499.00
+    Assets:Banking:HDFC
+
+2024/10/30 Vice - near airport cousins
+    Expenses:Vice:C    ₹50.00
+    Assets:Banking:HDFC
+
+2024/11/01 Auto to Sanbrix Amara
+    Expenses:Travel:Auto    ₹300.00
+    Assets:Banking:HDFC
+
+2024/11/01 Vice - near airport cousins
+    Expenses:Vice:C    ₹82.00
+    Assets:Banking:HDFC
+
+2024/11/01 Teku Salary
+    Expenses:Home:Cook    ₹6,000.00
+    Assets:Banking:HDFC
+
+2024/11/02 Bus to Madurai
+    Expenses:Travel:Bus    ₹269.00
+    Assets:Banking:HDFC
+
+2024/11/02 Zerodha
+    Assets:Zerodha:Funds    ₹50,000.00
+    Assets:Banking:SBI
+
+2024/11/02 Bermuda bar passes - Nithya
+    nan    ₹2,800.00
+    Assets:Banking:HDFC
+
+2024/11/02 Selling Bermuda bar passes
+    nan    ₹300.00
+    Assets:Banking:HDFC
+
+2024/11/03 Nithya dinner
+    Expenses:Food:EatingOut    ₹650.00
+    Assets:Banking:HDFC
+
+2024/11/03 Vice otw to Madurai
+    Expenses:Vice:C    ₹15.00
+    Assets:Banking:HDFC
+
+2024/11/04 Vice otw to KVB bank
+    Expenses:Vice:C    ₹15.00
+    Assets:Banking:HDFC
+
+2024/11/04 Jigirthanda
+    Expenses:Food:EatingOut    ₹260.00
+    Assets:Banking:HDFC
+
+2024/11/04 Madurai Redtaxi
+    Expenses:Travel:Cab    ₹900.00
+    Assets:Banking:HDFC
+
+2024/11/04 Vice at Goripalayam
+    Expenses:Vice:C    ₹15.00
+    Assets:Banking:HDFC
+
+2024/11/04 Bus to Bangalore
+    Expenses:Travel:Bus    ₹2,413.95
+    Assets:Banking:HDFC
+
+2024/11/04 Credit Card
+    Liabilities:Credit:HDFCMoneyBack    ₹1,245.00
+    Assets:Banking:HDFC
+
+2024/11/05 Rasberry Pi
+    Expenses:Home:Tech    ₹9,499.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/11/05 Vice - MH
+    Expenses:Vice:C    ₹116.00
+    Assets:Banking:HDFC
+
+2024/11/05 Grocery Mart - Shop
+    nan    ₹550.00
+    Assets:Banking:HDFC
+
+2024/11/05 Grocery near Brothers 12th Main
+    Expenses:Food:Groceries    ₹387.00
+    Assets:Banking:HDFC
+
+2024/11/05 Puffs
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
+2024/11/05 Coffee - Dera Punjab
+    Expenses:Food:EatingOut    ₹26.00
+    Assets:Banking:HDFC
+
+2024/11/05 Vice - MH
+    Expenses:Vice:C    ₹190.00
+    Assets:Banking:HDFC
+
+2024/11/05 Auto to home
+    Expenses:Travel:Auto    ₹65.00
+    Assets:Banking:HDFC
+
+2024/11/05 Onion Dosa
+    Expenses:Food:EatingOut    ₹80.00
+    Assets:Banking:HDFC
+
+2024/11/07 Hot Chips
+    Expenses:Food:Munchies    ₹110.00
+    Assets:Banking:HDFC
+
+2024/11/07 Chicken
+    Expenses:Food:Groceries    ₹130.00
+    Assets:Banking:HDFC
+
+2024/11/07 Vice
+    Expenses:Vice:C    ₹120.00
+    Assets:Banking:HDFC
+
+2024/11/07 Bobs with Mathu
+    Expenses:Food:EatingOut    ₹282.00
+    Assets:Banking:HDFC
+
+2024/11/07 Vice - Strawberry Apt Shop
+    Expenses:Vice:C    ₹100.00
+    Assets:Banking:HDFC
+
+2024/11/07 Groceries
+    Expenses:Food:Groceries    ₹297.00
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/11/08 Electricity Bill
+    Expenses:Home:Electricity    ₹827.00
+    Assets:Banking:HDFC
+
+2024/11/08 Flight to Pune
+    Expenses:Travel:Flight    ₹5,505.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/11/08 Vice - Strawberry Shop
+    Expenses:Vice:C    ₹100.00
+    Assets:Banking:HDFC
+
+2024/11/08 Vice - C
+    Expenses:Vice:C    ₹72.00
+    Assets:Banking:HDFC
+
+2024/11/09 Groceries
+    Expenses:Food:Groceries    ₹60.00
+    Assets:Banking:HDFC
+
+2024/11/09 Vice C
+    Expenses:Vice:C    ₹120.00
+    Assets:Banking:HDFC
+
+2024/11/10 Obsidian Subscription
+    Expenses:Subscriptions:Obsidian    ₹422.04
+    Liabilities:Credit:HDFCMoneyBack
+
+2024/11/10 Cab to Airport
+    Expenses:Travel:Cab    ₹1,000.00
+    Assets:Banking:HDFC
+
+2024/11/10 Chocolate - Relay in Airport
+    Expenses:Food:Chocolates    ₹60.00
+    Assets:Banking:HDFC
+
+2024/11/10 Vice C Pune Airport
+    Expenses:Vice:C    ₹110.00
+    Assets:Banking:HDFC
+
+2024/11/10 Home Loan
+    Expenses:Home:Loan    ₹105,779.00
+    Assets:Banking:SBI
+
+2024/11/10 Something at Pune
+    Expenses:Food:EatingOut    ₹200.00
+    Assets:Banking:HDFC
+
+2024/11/11 Gokul Gift - Pool
+    Expenses:Gifts:Gokul    ₹1,055.00
+    Assets:Banking:HDFC
+
+2024/11/11 Cab to CJ place
+    Expenses:Travel:Cab    ₹310.00
+    Assets:Banking:HDFC
+
+2024/11/12 Something
+    Expenses:Travel:Auto    ₹230.00
+    Assets:Banking:HDFC
+
+2024/11/12 Something
+    Expenses:Travel:Auto    ₹200.00
+    Assets:Banking:HDFC
+
+2024/11/13 Something in Mumbai
+    Expenses:Food:EatingOut    ₹40.00
+    Assets:Banking:HDFC
+
+2024/11/13 Something
+    Expenses:Food:EatingOut    ₹100.00
+    Assets:Banking:HDFC
+
+2024/11/13 Something in Mumbai
+    Expenses:Food:EatingOut    ₹100.00
+    Assets:Banking:HDFC
+
+2024/11/13 Sugarcane Juice
+    Expenses:Food:EatingOut    ₹30.00
+    Assets:Banking:HDFC
+
+2024/11/13 Vice
+    Expenses:Vice:C    ₹90.00
+    Assets:Banking:HDFC
+
+2024/11/13 Cab to Cuffe Parade
+    Expenses:Travel:Cab    ₹55.00
+    Assets:Banking:HDFC
+
+2024/11/13 Something
+    Expenses:Food:EatingOut    ₹140.00
+    Assets:Banking:HDFC
+
+2024/11/13 Something
+    Expenses:Food:EatingOut    ₹60.00
+    Assets:Banking:HDFC
+
+2024/11/13 Sandwich
+    Expenses:Food:EatingOut    ₹90.00
+    Assets:Banking:HDFC
+
+2024/11/13 Vice
+    Expenses:Vice:C    ₹35.00
+    Assets:Banking:HDFC
+
+2024/11/13 Vice
+    Expenses:Vice:C    ₹18.00
+    Assets:Banking:HDFC
+
+2024/11/14 Mumbai Rail
+    Expenses:Travel:Metro    ₹5.00
+    Assets:Banking:HDFC
+
+2024/11/14 Auto
+    Expenses:Travel:Auto    ₹100.00
+    Assets:Banking:HDFC
+
+2024/11/14 Food
+    Expenses:Food:EatingOut    ₹85.00
+    Assets:Banking:HDFC
+
+2024/11/14 Food
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
+2024/11/14 Food
+    Expenses:Food:EatingOut    ₹10.00
+    Assets:Banking:HDFC
+
+2024/11/14 Food
+    Expenses:Food:EatingOut    ₹5.00
+    Assets:Banking:HDFC
+
+2024/11/14 Bhel
+    Expenses:Food:EatingOut    ₹30.00
+    Assets:Banking:HDFC
+
+2024/11/14 Tea
+    Expenses:Food:EatingOut    ₹20.00
+    Assets:Banking:HDFC
+
+2024/11/14 Vice
+    Expenses:Vice:C    ₹105.00
+    Assets:Banking:HDFC
+
+2024/11/15 Flight to Chennai
+    Expenses:Travel:Flight    ₹5,200.00
+    Assets:Banking:HDFC
+
+2024/11/15 Something
+    Expenses:Food:EatingOut    ₹30.00
+    Assets:Banking:HDFC
+
+2024/11/15 Something
+    Expenses:Food:EatingOut    ₹24.00
+    Assets:Banking:HDFC
+
+2024/11/15 Something
+    Expenses:Food:EatingOut    ₹75.00
+    Assets:Banking:HDFC
+
+2024/11/15 Mumbai Rail
+    Expenses:Travel:Metro    ₹20.00
+    Assets:Banking:HDFC
+
+2024/11/15 Mumbai Rail
+    Expenses:Travel:Metro    ₹60.00
+    Assets:Banking:HDFC
+
+2024/11/15 Mumbai Rail
+    Expenses:Travel:Metro    ₹60.00
+    Assets:Banking:HDFC
+
+2024/11/15 Mezcalita Mexican with Arghya
+    Expenses:Food:EatingOut    ₹2,096.00
+    Assets:Banking:HDFC
+
+2024/11/16 Samosa otw to Gowtham place
+    Expenses:Food:EatingOut    ₹50.00
+    Assets:Banking:HDFC
+
+2024/11/16 Auto to Gowtham Place
+    Expenses:Travel:Auto    ₹300.00
+    Assets:Banking:HDFC
+
+2024/11/16 Kanguva Movie
+    Expenses:Misc:Entertainment:Movie    ₹522.36
+    Assets:Banking:HDFC
+
+2024/11/16 Auto
+    Expenses:Travel:Auto    ₹215.00
+    Assets:Banking:HDFC
+
+2024/11/16 Vice - C
+    Expenses:Vice:C    ₹38.00
+    Assets:Banking:HDFC
+
+2024/11/16 Vice - C
+    Expenses:Vice:C    ₹72.00
+    Assets:Banking:HDFC
+
+2024/11/16 Gowtham place whiskey
+    Expenses:Food:Booze    ₹2,270.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/11/16 Vice - C
+    Expenses:Vice:C    ₹108.00
+    Assets:Banking:HDFC
+
+2024/11/17 Vice - C
+    Expenses:Vice:C    ₹18.00
+    Assets:Banking:HDFC
+
+2024/11/17 ICICI Credit card
+    Liabilities:Credit:ICICIAmazonPay    ₹6,562.50
+    Assets:Banking:HDFC
+
+2024/11/17 Vice - C
+    Expenses:Vice:C    ₹20.00
+    Assets:Banking:HDFC
+
+2024/11/17 Something
+    Expenses:Food:EatingOut    ₹15.00
+    Assets:Banking:HDFC
+
+2024/11/17 Beer
+    Expenses:Food:Booze    ₹660.00
+    Assets:Banking:HDFC
+
+2024/11/17 Jio
+    Expenses:Subscriptions:Internet    ₹1,178.82
+    Assets:Banking:HDFC
+
+2024/11/17 Auto to Zaitoon
+    Expenses:Travel:Auto    ₹200.00
+    Assets:Banking:HDFC
+
+2024/11/17 Bus to Bangalore
+    Expenses:Travel:Bus    ₹880.95
+    Assets:Banking:HDFC
+
+2024/11/17 Zaitoon with cousins
+    Expenses:Food:EatingOut    ₹2,841.00
+    Liabilities:Credit:ICICIAmazonPay
+
+2024/11/18 Maintanence
+    Expenses:Home:Maintenence    ₹3,000.00
+    Assets:Banking:HDFC
+
+2024/11/18 Teku Salary
+    Expenses:Home:Cook    ₹6,000.00
+    Assets:Banking:HDFC
+
+2024/11/18 Underwear at 100ft road shop
+    Expenses:SelfCare:Clothes    ₹1,200.00
+    Assets:Banking:HDFC
+
+2024/11/18 SD Card 8GB - for rasberry pi
+    Expenses:Home:Tech    ₹250.00
+    Assets:Banking:HDFC
+
+2024/11/18 Chicken Momos
+    Expenses:Food:EatingOut    ₹70.00
+    Assets:Banking:HDFC
+
+2024/11/18 Stickers and clips at stationary
+    Expenses:Home:Furniture    ₹65.00
+    Assets:Banking:HDFC
+
+2024/11/18 Bread and Vegetables - Bakery near Vasantham
+    Expenses:Food:Groceries    ₹55.00
+    Assets:Banking:HDFC
+
+2024/11/18 Goli Soda
+    Expenses:Food:EatingOut    ₹25.00
     Assets:Banking:HDFC
 

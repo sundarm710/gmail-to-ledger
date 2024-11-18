@@ -1,5 +1,6 @@
 credentials.yaml
 email_expense_transactions.csv
+email_expense_transactions_backup.csv
 ledger_entries.txt
 ledger_entries_obsidian.txt
 ledger.txt

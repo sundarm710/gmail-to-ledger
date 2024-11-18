@@ -9,6 +9,7 @@ def convert_csv_to_ledger(csv_file, output_file):
     # Initialize an empty list to hold the formatted ledger entries
     ledger_entries = []
     df = df[(df['Description'].notna()) & (df['Description'] != '')]
+    df = df[(df['toAccount'].notna()) & (df['toAccount'] != '')]
 
     for index, row in df.iterrows():
         # Parse and format the date
