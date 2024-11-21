@@ -2327,7 +2327,7 @@
     Assets:Banking:HDFC
 
 2024/11/16 Kanguva Movie
-    Expenses:Misc:Entertainment:Movie    ₹522.36
+    Expenses:Entertainment:Movie    ₹522.36
     Assets:Banking:HDFC
 
 2024/11/16 Auto

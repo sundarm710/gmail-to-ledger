@@ -92,6 +92,9 @@ def get_expense_emails(mail, label, since_date):
         df = pd.DataFrame(transactions)
         df['Description'] = ''  # Add a blank Description column
         df['toAccount'] = '' # Add a blank toAccount column
+        
+        # Convert timestamp column to datetime explicitly
+        df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
         print("Transactions DataFrame created with blank Description column.")
         return df
 
@@ -103,6 +106,10 @@ def get_expense_emails(mail, label, since_date):
 PATTERNS = {
     'HDFC Savings Account': {
         'pattern': r'Rs\.(\d+\.\d{2}) has been debited from account \*\*(\d{4}) to VPA ([\w\.\-]+@[\w\.\-]+) on (\d{2}-\d{2}-\d{2})',
+        'expense_account': 'Assets:Banking:HDFC'
+    },
+    'HDFC Savings Account New Format': {
+        'pattern': r'Rs\.(\d+\.\d{2}) has been debited from account \*\*(\d{4}) to VPA ([\w\.\-]+@[\w\.\-]+) ([\w\s]+) on (\d{2}-\d{2}-\d{2})',
         'expense_account': 'Assets:Banking:HDFC'
     },
     'Liabilities Credit HDFCMoneyBack': {
@@ -148,6 +155,9 @@ def parse_transaction_details(subject, body):
                 if transaction_type == 'HDFC Savings Account':
                     amount, account_last4, recipient, date = groups
                     date = pd.to_datetime(date, format='%d-%m-%y').strftime('%Y-%m-%d')
+                elif transaction_type == 'HDFC Savings Account New Format':
+                    amount, account_last4, recipient, description, date = groups
+                    date = pd.to_datetime(date, format='%d-%m-%y').strftime('%Y-%m-%d')
                 elif transaction_type == 'Liabilities Credit HDFCMoneyBack':
                     account_last4, amount, recipient, datetime_str = groups
                     date = pd.to_datetime(datetime_str, format='%d-%m-%Y %H:%M:%S').strftime('%Y-%m-%d')
@@ -190,53 +200,82 @@ def parse_transaction_details(subject, body):
 
     return None
 
+import os
+import pandas as pd
+
+def clean_and_normalize_data(df):
+    """Normalize and clean the input DataFrame."""
+    # Ensure all relevant columns exist
+    required_columns = ['date', 'amount', 'recipient', 'timestamp', 'Description']
+    for col in required_columns:
+        if col not in df.columns:
+            df[col] = None
+
+    # Fill missing descriptions with empty strings
+    df['Description'] = df['Description'].fillna('')
+
+    # Normalize 'recipient' by stripping and converting to lowercase
+    df['recipient'] = df['recipient'].str.strip().str.lower()
+
+    # Convert 'date' and 'timestamp' columns to datetime
+    df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce', utc=True)  # Updated with utc=True
+
+    # Convert 'amount' to numeric
+    df['amount'] = pd.to_numeric(df['amount'], errors='coerce')
+
+    return df
+
+
+
+def prioritize_descriptions_and_deduplicate(df):
+    """Remove duplicates, prioritizing rows with descriptions."""
+    # Add a helper column to prioritize rows with non-empty descriptions
+    df['has_description'] = df['Description'].apply(lambda x: bool(str(x).strip()))
+
+    # Sort to prioritize rows with descriptions and earlier timestamps
+    df = df.sort_values(by=['has_description', 'timestamp'], ascending=[False, True])
+
+    # Drop duplicates based on key columns
+    df = df.drop_duplicates(subset=['date', 'amount', 'recipient', 'timestamp'], keep='first')
+
+    # Drop the helper column
+    df = df.drop(columns=['has_description'])
+    return df
+
+
 def merge_with_existing_csv(df, csv_file):
+    """Merge a new DataFrame with an existing CSV file."""
+    # Normalize and clean the incoming DataFrame
+    df = clean_and_normalize_data(df)
+
     if os.path.exists(csv_file):
-        print(f"CSV file '{csv_file}' exists. Cleaning and merging with new data.")
+        print(f"CSV file '{csv_file}' exists. Merging with new data.")
+        # Load and clean the existing CSV
         existing_df = pd.read_csv(csv_file)
+        existing_df = clean_and_normalize_data(existing_df)
 
-        # Ensure the 'Description' column is present in the existing CSV
-        if 'Description' not in existing_df.columns:
-            existing_df['Description'] = ''
-
-        # Convert 'Description' to string to avoid AttributeError on NaN values
-        existing_df['Description'] = existing_df['Description'].astype(str)
-
-        # Step 1: Clean existing data by removing duplicates, giving precedence to non-empty descriptions
-        existing_df['has_description'] = existing_df['Description'].apply(lambda x: bool(str(x).strip()))
-        existing_df = existing_df.sort_values(by=['has_description', 'timestamp'], ascending=[False, True])
-        existing_df = existing_df.drop_duplicates(subset=['date', 'timestamp', 'amount', 'recipient', 'account_last4'], keep='first')
-        # existing_df = existing_df.drop(columns=['has_description'])
-
-        # # Convert new data 'Description' column to string
-        df['Description'] = df['Description'].astype(str)
-
-        # # Step 2: Concatenate the cleaned existing DataFrame with the new DataFrame
-        combined_df = pd.concat([existing_df, df])
-        combined_df = combined_df.reset_index(drop=True)
-
-        # # Step 3: Remove duplicates again, giving precedence to non-empty descriptions
-        combined_df['has_description'] = combined_df['Description'].apply(lambda x: bool(str(x).strip()))
-        combined_df = combined_df.sort_values(by=['has_description', 'timestamp'], ascending=[False, True])
-        combined_df = combined_df.drop_duplicates(subset=['date', 'amount', 'recipient', 'timestamp'], keep='first')
-        combined_df = combined_df.drop(columns=['has_description'])
-        # print (combined_df)
-        # Sort by date to keep it organized
-        combined_df = combined_df.sort_values(by=['date', 'timestamp'], ascending=[False, False]).reset_index(drop=True)
-        print("Data cleaned and merged successfully.")
+        # Combine existing and new data
+        combined_df = pd.concat([existing_df, df], ignore_index=True)
     else:
         print(f"CSV file '{csv_file}' does not exist. Creating new file.")
         combined_df = df
 
+    # Deduplicate and prioritize descriptions
+    combined_df = prioritize_descriptions_and_deduplicate(combined_df)
+
+    # Sort for consistency
+    combined_df = combined_df.sort_values(by=['date', 'timestamp'], ascending=[False, False]).reset_index(drop=True)
+
     return combined_df
 
 
-def main():
+def update_transactions_csv():
     credentials = load_credentials('credentials.yaml')
     mail = connect_to_gmail_imap(*credentials)
     # Use the label filter with the SINCE filter
     label = 'Finances/Expenses'
-    one_week_ago = datetime.now() - timedelta(weeks=2)
+    one_week_ago = datetime.now() - timedelta(days=4)
 
     # Format the date as 'DD-MMM-YYYY'
     since_date = one_week_ago.strftime('%d-%b-%Y')
@@ -251,4 +290,4 @@ def main():
         print("No transactions found.")
 
 if __name__ == "__main__":
-    main()
+    update_transactions_csv()
