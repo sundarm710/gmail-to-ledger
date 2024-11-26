@@ -76,33 +76,9 @@ def main():
     current_transaction = df.loc[st.session_state.current_index]
 
     # Create two columns for the layout
-    col1, col2 = st.columns([2, 1])
+    col1, col2, col3 = st.columns([1, 2, 1])
 
     with col1:
-        st.subheader("Current Transaction")
-        # Display the current transaction details
-        st.write(current_transaction[['date', 'amount', 'recipient', 'Description', 'toAccount', 'timestamp']])
-
-        # Show timestamp in readable format
-        st.write("Transaction Time:")
-        if pd.api.types.is_numeric_dtype(current_transaction['timestamp']):
-            timestamp = pd.to_datetime(current_transaction['timestamp'], unit='s')
-        else:
-            timestamp = pd.to_datetime(current_transaction['timestamp'])
-        st.write(format_datetime(parse_timestamp(timestamp)))
-
-        # Text input for Description
-        new_description = st.text_input("Edit Description", "")
-
-        # Select box for toAccount
-        unique_accounts = df['toAccount'].dropna().value_counts().index.tolist()
-        new_to_account = st.selectbox("Select toAccount", unique_accounts)
-        text_to_account = st.text_input("New toAccount", value=new_to_account)
-
-        if text_to_account != new_to_account:
-            new_to_account = text_to_account
-
-    with col2:
         st.subheader("Previous Transactions")
         # Find previous transactions with the same recipient
         same_recipient = df[
@@ -117,55 +93,88 @@ def main():
                 same_recipient[['date', 'amount', 'Description', 'toAccount']],
                 hide_index=True
             )
+            # Prefill with last known values
+            last_known_description = same_recipient.iloc[0]['Description']
+            last_known_to_account = same_recipient.iloc[0]['toAccount']
         else:
             st.write("No previous transactions found with this recipient")
+            last_known_description = ""
+            last_known_to_account = ""
 
-    # Add navigation buttons in a new row
-    nav_col1, nav_col2, nav_col3 = st.columns([1, 1, 1])
-    
-    # Store current index in session state if not already present
-    if 'current_index' not in st.session_state:
-        st.session_state.current_index = blank_rows.index[0]
-    
-    with nav_col1:
-        # Add a save button
-        if st.button("Save Changes"):
-            print("Before update - Current transaction:", current_transaction)  # Print current state
-            print("Edited values: Description:", new_description, "toAccount:", new_to_account)  # Print edited values
-            
-            # Update the main DataFrame with edited values
-            df.loc[current_transaction.name, 'Description'] = new_description
-            df.loc[current_transaction.name, 'toAccount'] = new_to_account
-            
-            print("After update - Modified row:", df.loc[current_transaction.name])  # Print updated state
-            
-            # Backup the original CSV
-            shutil.copy('email_expense_transactions.csv', 'email_expense_transactions_backup.csv')
-            
-            # Save back to CSV
-            df.to_csv('email_expense_transactions.csv', index=False)
-            
-            # Move to next blank transaction
-            current_idx = blank_rows.index.get_loc(st.session_state.current_index)
-            if current_idx < len(blank_rows) - 1:
-                st.session_state.current_index = blank_rows.index[current_idx + 1]
-            
-            st.success("Transaction updated!")
-            st.rerun()
+    with col2:
+        
+        # Show timestamp in readable format
+        st.write("Transaction Time:")
+        if pd.api.types.is_numeric_dtype(current_transaction['timestamp']):
+            timestamp = pd.to_datetime(current_transaction['timestamp'], unit='s')
+        else:
+            timestamp = pd.to_datetime(current_transaction['timestamp'])
+        st.write(format_datetime(parse_timestamp(timestamp)))
 
-    with nav_col2:
-        if st.button("Previous Transaction"):
-            current_idx = blank_rows.index.get_loc(st.session_state.current_index)
-            if current_idx > 0:
-                st.session_state.current_index = blank_rows.index[current_idx - 1]
+        # Text input for Description, prefilled with last known value
+        new_description = st.text_input("Edit Description", last_known_description)
+
+        # Select box for toAccount, prefilled with last known value
+        unique_accounts = df['toAccount'].dropna().value_counts().index.tolist()
+        new_to_account = st.selectbox("Select toAccount", unique_accounts, index=unique_accounts.index(last_known_to_account) if last_known_to_account in unique_accounts else 0)
+        text_to_account = st.text_input("New toAccount", value=new_to_account)
+
+        if text_to_account != new_to_account:
+            new_to_account = text_to_account
+
+        # Add navigation buttons in a new row
+        nav_col1, nav_col2, nav_col3 = st.columns([1, 1, 1])
+        
+        # Store current index in session state if not already present
+        if 'current_index' not in st.session_state:
+            st.session_state.current_index = blank_rows.index[0]
+        
+        with nav_col1:
+            # Add a save button
+            if st.button("Save Changes"):
+                print("Before update - Current transaction:", current_transaction)  # Print current state
+                print("Edited values: Description:", new_description, "toAccount:", new_to_account)  # Print edited values
+                
+                # Update the main DataFrame with edited values
+                df.loc[current_transaction.name, 'Description'] = new_description
+                df.loc[current_transaction.name, 'toAccount'] = new_to_account
+                
+                print("After update - Modified row:", df.loc[current_transaction.name])  # Print updated state
+                
+                # Backup the original CSV
+                shutil.copy('email_expense_transactions.csv', 'email_expense_transactions_backup.csv')
+                
+                # Save back to CSV
+                df.to_csv('email_expense_transactions.csv', index=False)
+                
+                # Move to next blank transaction
+                current_idx = blank_rows.index.get_loc(st.session_state.current_index)
+                if current_idx < len(blank_rows) - 1:
+                    st.session_state.current_index = blank_rows.index[current_idx + 1]
+                
+                st.success("Transaction updated!")
                 st.rerun()
 
-    with nav_col3:
-        if st.button("Next Transaction"):
-            current_idx = blank_rows.index.get_loc(st.session_state.current_index)
-            if current_idx < len(blank_rows) - 1:
-                st.session_state.current_index = blank_rows.index[current_idx + 1]
-                st.rerun()
+        with nav_col2:
+            if st.button("Previous Transaction"):
+                current_idx = blank_rows.index.get_loc(st.session_state.current_index)
+                if current_idx > 0:
+                    st.session_state.current_index = blank_rows.index[current_idx - 1]
+                    st.rerun()
+
+        with nav_col3:
+            if st.button("Next Transaction"):
+                current_idx = blank_rows.index.get_loc(st.session_state.current_index)
+                if current_idx < len(blank_rows) - 1:
+                    st.session_state.current_index = blank_rows.index[current_idx + 1]
+                    st.rerun()
+
+
+    with col3:
+        st.subheader("Current Transaction")
+        # Display the current transaction details
+        st.write(current_transaction[['date', 'amount', 'recipient', 'Description', 'toAccount', 'timestamp']])
+
 
     # Update the current transaction selection based on navigation
     current_transaction = df.loc[st.session_state.current_index]
@@ -213,7 +222,9 @@ def main():
             st.warning("No transactions found after the selected date.")
 
 if __name__ == "__main__":
-    # print("Updating transactions CSV file")
-    # # Update the transactions CSV file
-    # update_transactions_csv()
+    if 'transactions_updated' not in st.session_state:
+        print("Updating transactions CSV file")
+        # Update the transactions CSV file
+        update_transactions_csv()
+        st.session_state.transactions_updated = True
     main()
