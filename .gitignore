@@ -4,3 +4,4 @@ email_expense_transactions_backup.csv
 ledger_entries.txt
 ledger_entries_obsidian.txt
 ledger.txt
+*.pyc__pycache__/
